@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Info Teacher Radar</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">IR</div>
+        <div class="brandText">
+          <div class="brandName">Info Teacher Radar</div>
+          <div class="brandSub">ICT教育・情報Ⅰ・生成AI・MEXT</div>
+        </div>
+      </div>
+
+      <nav class="nav" id="navTabs"></nav>
+
+      <div class="sidebarSection">
+        <div class="sectionTitle">クイック</div>
+        <button class="btnGhost" id="btnToday">今日のピックアップ</button>
+        <button class="btnGhost" id="btnBookmarks">★ ブックマーク</button>
+        <button class="btnGhost" id="btnXTab">Xまとめ</button>
+      </div>
+
+      <div class="sidebarSection">
+        <div class="sectionTitle">保存 / 復元</div>
+        <button class="btnGhost" id="btnExport">ブックマーク書き出し</button>
+        <label class="btnGhost fileLabel">
+          ブックマーク読み込み
+          <input type="file" id="importFile" accept="application/json" />
+        </label>
+      </div>
+
+      <div class="sidebarFooter">
+        <div class="muted" id="metaGenerated">—</div>
+        <div class="muted">表示：直近7日（★は永久）</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="searchWrap">
+          <input id="searchInput" class="search" placeholder="検索（タイトル / 発行元 / タグ）" />
+          <div class="kbd">/</div>
+        </div>
+        <div class="topActions">
+          <button class="btn" id="btnRefresh">更新</button>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="contentHeader">
+          <div>
+            <h1 id="viewTitle">今日のピックアップ</h1>
+            <div class="sub" id="viewSub">授業に効く情報を上に、自動で並べます。</div>
+          </div>
+          <div class="filters">
+            <select id="daysSelect" class="select">
+              <option value="7">直近7日</option>
+              <option value="3">直近3日</option>
+              <option value="1">今日</option>
+            </select>
+            <select id="sortSelect" class="select">
+              <option value="score">おすすめ順</option>
+              <option value="new">新しい順</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="tagRow" id="tagRow"></div>
+
+        <div class="cards" id="cards"></div>
+
+        <div class="empty" id="emptyState" hidden>
+          <div class="emptyTitle">表示できる記事がありません</div>
+          <div class="emptySub">検索条件や日数を変えてみてください。</div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">
+          個人用ダッシュボード（本文保存なし）。リンク先で記事を確認してください。
+        </div>
+      </footer>
+    </main>
+
+    <!-- X まとめ（手動クリップ）モーダル -->
+    <div class="modal" id="xModal" hidden>
+      <div class="modalCard">
+        <div class="modalHeader">
+          <div class="modalTitle">Xまとめ（手動クリップ）</div>
+          <button class="btnGhost" id="xClose">閉じる</button>
+        </div>
+
+        <div class="xAdd">
+          <input id="xUrl" class="input" placeholder="Xの投稿URLを貼り付け" />
+          <input id="xMemo" class="input" placeholder="メモ（任意）" />
+          <button class="btn" id="xAddBtn">追加</button>
+        </div>
+
+        <div class="xList" id="xList"></div>
+
+        <div class="muted small">
+          ※内容の自動取得はしません（壊れにくさ優先）。URL＋メモで管理します。
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
