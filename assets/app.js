@@ -1,5 +1,4 @@
 /* Info Teacher Radar - front-end (static) */
-console.log("app.js loaded: v20260114-2");
 
 const TABS = [
   { key: "TODAY", label: "今日のピックアップ" },
@@ -15,15 +14,12 @@ const TABS = [
 
 const LS_KEY = "itr.bookmarks.v1"; // stores { map: {id: itemMeta}, order: [id...] }
 const LS_X = "itr.xclips.v1";      // stores [{url,memo,ts}]
-const BOOKMARK_CAP = 500;          // soft cap (you wanted >=100; 500 is safe)
+const BOOKMARK_CAP = 500;
 
 let allItems = [];
 let filtered = [];
 let activeTab = "TODAY";
 let activeTag = null;
-
-// Xモーダルを閉じたときに戻る先
-let lastNonXTab = "TODAY";
 
 const $ = (id) => document.getElementById(id);
 
@@ -69,7 +65,6 @@ function toggleBookmark(item) {
     delete bm.map[item.id];
     bm.order = bm.order.filter((x) => x !== item.id);
   } else {
-    // store meta so it survives beyond 7 days
     bm.map[item.id] = {
       id: item.id,
       title: item.title,
@@ -82,7 +77,6 @@ function toggleBookmark(item) {
     };
     bm.order.unshift(item.id);
 
-    // soft cap
     if (bm.order.length > BOOKMARK_CAP) {
       const removed = bm.order.slice(BOOKMARK_CAP);
       removed.forEach((id) => delete bm.map[id]);
@@ -94,13 +88,91 @@ function toggleBookmark(item) {
 }
 
 /* -------------------------
+   X clips (manual)
+------------------------- */
+function loadX() {
+  try {
+    const raw = localStorage.getItem(LS_X);
+    if (!raw) return [];
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr) ? arr : [];
+  } catch {
+    return [];
+  }
+}
+function saveX(arr) {
+  localStorage.setItem(LS_X, JSON.stringify(arr));
+}
+
+function renderXList() {
+  const list = $("xList");
+  if (!list) return;
+  list.innerHTML = "";
+
+  const arr = loadX().sort((a, b) => (b.ts || 0) - (a.ts || 0));
+
+  for (const item of arr) {
+    const box = document.createElement("div");
+    box.className = "xItem";
+
+    const top = document.createElement("div");
+    top.className = "xItemTop";
+
+    const left = document.createElement("div");
+    const url = document.createElement("div");
+    url.className = "xUrl";
+    url.textContent = item.url;
+    left.appendChild(url);
+
+    const memo = document.createElement("div");
+    memo.className = "xMemo";
+    memo.textContent = item.memo ? item.memo : "（メモなし）";
+    left.appendChild(memo);
+
+    const actions = document.createElement("div");
+    actions.className = "xActions";
+
+    const open = document.createElement("a");
+    open.className = "xBtn";
+    open.textContent = "Open";
+    open.href = item.url;
+    open.target = "_blank";
+    open.rel = "noopener noreferrer";
+
+    const del = document.createElement("button");
+    del.className = "xBtn";
+    del.textContent = "削除";
+    del.onclick = () => {
+      const next = loadX().filter((x) => x.ts !== item.ts);
+      saveX(next);
+      renderXList();
+    };
+
+    actions.appendChild(open);
+    actions.appendChild(del);
+
+    top.appendChild(left);
+    top.appendChild(actions);
+
+    box.appendChild(top);
+    list.appendChild(box);
+  }
+}
+
+function showXPanel(show) {
+  const panel = $("xPanel");
+  if (!panel) return;
+  panel.hidden = !show;
+  if (show) renderXList();
+}
+
+/* -------------------------
    Nav / Tabs
 ------------------------- */
 function renderNav() {
   const nav = $("navTabs");
   nav.innerHTML = "";
 
-  // Main nav excludes TODAY / BOOKMARKS / X (they are in Quick buttons)
   const mainTabs = TABS.filter((t) => !["TODAY", "BOOKMARKS", "X"].includes(t.key));
   for (const t of mainTabs) {
     const btn = document.createElement("button");
@@ -134,36 +206,36 @@ function updateTitles() {
       : "授業に効く情報を上に、自動で並べます。";
 }
 
-/**
- * IMPORTANT FIX:
- * - Xタブは applyFilters() 側で毎回モーダルを開くと「閉じても復活」してしまうので、
- *   setTab("X") のタイミングでだけ開く。
- */
-function setTab(tabKey) {
-  // record last non-X tab for returning
-  if (tabKey !== "X") {
-    lastNonXTab = tabKey;
-  }
+function setFiltersVisible(visible){
+  const filters = $("filters");
+  const tagRow = $("tagRow");
+  if (filters) filters.style.display = visible ? "flex" : "none";
+  if (tagRow) tagRow.style.display = visible ? "flex" : "none";
+}
 
+function setTab(tabKey) {
   activeTab = tabKey;
   activeTag = null;
 
+  // Xタブは検索対象が別なので、検索は維持してもいいが、いったんクリア
   $("searchInput").value = "";
   $("sortSelect").value = "score";
-
-  $("daysSelect").disabled = tabKey === "BOOKMARKS" || tabKey === "X";
   $("daysSelect").value = "7";
+
+  // X/BOOKMARKSは日数フィルタ不要
+  $("daysSelect").disabled = tabKey === "BOOKMARKS" || tabKey === "X";
 
   updateTitles();
   renderNav();
+
+  // Xパネル切り替え
+  const isX = (tabKey === "X");
+  showXPanel(isX);
+
+  // XのときはフィルタUIを隠す（Notionっぽくすっきり）
+  setFiltersVisible(!isX);
+
   renderTags();
-
-  // X tab: open modal and stop (do NOT call applyFilters)
-  if (tabKey === "X") {
-    renderXModal(true);
-    return;
-  }
-
   applyFilters();
 }
 
@@ -178,7 +250,6 @@ function withinDays(item, days) {
 }
 
 function pickToday(items) {
-  // pick top scored from each important tab (balances)
   const buckets = ["ICT", "INFO1", "AI_LATEST", "AI_EDU", "MEXT", "EXAM"];
   const picked = [];
 
@@ -191,7 +262,6 @@ function pickToday(items) {
     picked.push(...part);
   }
 
-  // de-dupe by id and sort by score
   const map = new Map();
   for (const it of picked) {
     if (!map.has(it.id)) map.set(it.id, it);
@@ -207,9 +277,15 @@ function applyFilters() {
   const days = parseInt($("daysSelect").value, 10);
   const sort = $("sortSelect").value;
 
+  // Xタブは記事一覧ではなくXパネルなので、cardsは空にして終了
+  if (activeTab === "X") {
+    $("cards").innerHTML = "";
+    $("emptyState").hidden = true;
+    return;
+  }
+
   let items = [];
 
-  // Xタブは setTab() でモーダルを開くのでここでは扱わない
   if (activeTab === "BOOKMARKS") {
     const bm = loadBookmarks();
     items = bm.order.map((id) => bm.map[id]).filter(Boolean);
@@ -250,9 +326,9 @@ function applyFilters() {
 function renderTags() {
   const row = $("tagRow");
   row.innerHTML = "";
+
   if (activeTab === "BOOKMARKS" || activeTab === "X") return;
 
-  // collect top tags for current tab in last 7 days
   let base = allItems;
   if (activeTab !== "TODAY") {
     base = allItems.filter((x) => x.tab === activeTab);
@@ -281,10 +357,12 @@ function renderTags() {
     return b;
   };
 
-  row.appendChild(mk("すべて", () => {
-    activeTag = null;
-    applyFilters();
-  }, !activeTag));
+  row.appendChild(
+    mk("すべて", () => {
+      activeTag = null;
+      applyFilters();
+    }, !activeTag)
+  );
 
   for (const t of tags) {
     row.appendChild(
@@ -364,94 +442,6 @@ function renderCards() {
 }
 
 /* -------------------------
-   X clips (manual)
-------------------------- */
-function loadX() {
-  try {
-    const raw = localStorage.getItem(LS_X);
-    if (!raw) return [];
-    const arr = JSON.parse(raw);
-    return Array.isArray(arr) ? arr : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveX(arr) {
-  localStorage.setItem(LS_X, JSON.stringify(arr));
-}
-
-function renderXList() {
-  const list = $("xList");
-  list.innerHTML = "";
-  const arr = loadX().sort((a, b) => (b.ts || 0) - (a.ts || 0));
-
-  for (const item of arr) {
-    const box = document.createElement("div");
-    box.className = "xItem";
-
-    const top = document.createElement("div");
-    top.className = "xItemTop";
-
-    const left = document.createElement("div");
-    const url = document.createElement("div");
-    url.className = "xUrl";
-    url.textContent = item.url;
-    left.appendChild(url);
-
-    const memo = document.createElement("div");
-    memo.className = "xMemo";
-    memo.textContent = item.memo ? item.memo : "（メモなし）";
-    left.appendChild(memo);
-
-    const actions = document.createElement("div");
-    actions.className = "xActions";
-
-    const open = document.createElement("a");
-    open.className = "xBtn";
-    open.textContent = "Open";
-    open.href = item.url;
-    open.target = "_blank";
-    open.rel = "noopener noreferrer";
-
-    const del = document.createElement("button");
-    del.className = "xBtn";
-    del.textContent = "削除";
-    del.onclick = () => {
-      const next = loadX().filter((x) => x.ts !== item.ts);
-      saveX(next);
-      renderXList();
-    };
-
-    actions.appendChild(open);
-    actions.appendChild(del);
-
-    top.appendChild(left);
-    top.appendChild(actions);
-
-    box.appendChild(top);
-    list.appendChild(box);
-  }
-}
-
-function closeXAndReturn() {
-  renderXModal(false);
-  // return to previous tab safely
-  if (lastNonXTab === "X") lastNonXTab = "TODAY";
-  setTab(lastNonXTab || "TODAY");
-}
-
-function renderXModal(open) {
-  const modal = $("xModal");
-  if (open) {
-    modal.hidden = false;
-    renderXList();
-  } else {
-    modal.hidden = true;
-  }
-}
-
-/* -------------------------
    Export / Import bookmarks
 ------------------------- */
 function exportBookmarks() {
@@ -473,7 +463,6 @@ function importBookmarks(file) {
       if (!obj || typeof obj !== "object") throw new Error("Invalid JSON");
       if (!obj.map || !obj.order) throw new Error("Invalid bookmark format");
 
-      // merge
       const bm = loadBookmarks();
       for (const id of obj.order) {
         if (obj.map[id] && !bm.map[id]) {
@@ -482,7 +471,6 @@ function importBookmarks(file) {
         }
       }
 
-      // de-dupe order and soft cap
       bm.order = Array.from(new Set(bm.order));
       if (bm.order.length > BOOKMARK_CAP) {
         const removed = bm.order.slice(BOOKMARK_CAP);
@@ -518,16 +506,10 @@ async function loadItems() {
    Bindings
 ------------------------- */
 function bind() {
-  // keyboard: / to focus search
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && document.activeElement !== $("searchInput")) {
       e.preventDefault();
       $("searchInput").focus();
-    }
-    if (e.key === "Escape") {
-      if (!$("xModal").hidden) {
-        closeXAndReturn();
-      }
     }
   });
 
@@ -550,8 +532,7 @@ function bind() {
     e.target.value = "";
   });
 
-  $("xClose").onclick = () => closeXAndReturn();
-
+  // X add
   $("xAddBtn").onclick = () => {
     const url = $("xUrl").value.trim();
     const memo = $("xMemo").value.trim();
@@ -559,19 +540,12 @@ function bind() {
 
     const arr = loadX();
     arr.unshift({ url, memo, ts: Date.now() });
-    saveX(arr.slice(0, 500)); // soft cap
+    saveX(arr.slice(0, 500));
 
     $("xUrl").value = "";
     $("xMemo").value = "";
     renderXList();
   };
-
-  // click outside modal to close
-  $("xModal").addEventListener("click", (e) => {
-    if (e.target.id === "xModal") {
-      closeXAndReturn();
-    }
-  });
 }
 
 /* -------------------------
@@ -599,8 +573,7 @@ async function boot(force = false) {
 ------------------------- */
 (async function main() {
   bind();
-  renderXModal(false); // ← 念のため最初は必ず閉じる
+  showXPanel(false);
   setTab("TODAY");
   await boot();
 })();
-
