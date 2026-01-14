@@ -392,3 +392,35 @@ h1{margin:0; font-size:26px; letter-spacing:-.2px}
   .content{padding:18px 14px}
   .xAdd{grid-template-columns: 1fr}
 }
+
+.xPanel{
+  margin-top: 14px;
+  background: rgba(255,255,255,.75);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.xPanelTop{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:12px;
+  padding: 6px 2px 12px;
+  border-bottom:1px solid var(--line);
+}
+
+.xPanelTitle{
+  font-weight: 900;
+}
+
+.xAddRow{
+  display:grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap:10px;
+  padding: 14px 2px 8px;
+}
+
+@media (max-width: 920px){
+  .xAddRow{ grid-template-columns: 1fr; }
+}
