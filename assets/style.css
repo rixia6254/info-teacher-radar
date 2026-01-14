@@ -271,4 +271,120 @@ h1{margin:0; font-size:26px; letter-spacing:-.2px}
   background:rgba(0,0,0,.02);
   border-radius:12px;
   padding:8px 10px;
-  cursor:poin
+  cursor:pointer;
+  font-weight:900;
+}
+.star.on{
+  border-color:#111;
+}
+.openLink{
+  border:1px solid var(--line);
+  background:rgba(0,0,0,.02);
+  border-radius:12px;
+  padding:8px 10px;
+  cursor:pointer;
+  font-weight:800;
+  text-decoration:none;
+  color:var(--text);
+}
+.openLink:hover{background:rgba(0,0,0,.04)}
+
+.empty{
+  margin-top:18px;
+  background:rgba(255,255,255,.75);
+  border:1px dashed var(--line);
+  border-radius: var(--radius);
+  padding:26px;
+}
+.emptyTitle{font-weight:900}
+.emptySub{margin-top:6px;color:var(--muted)}
+
+.footer{
+  padding:12px 18px 18px;
+}
+
+/* Modal */
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.35);
+  display:grid;
+  place-items:center;
+  padding:18px;
+}
+.modalCard{
+  width:min(920px, 100%);
+  background:var(--panel);
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.4);
+  box-shadow: var(--shadow);
+  padding:16px;
+}
+.modalHeader{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:8px 6px 12px;
+  border-bottom:1px solid var(--line);
+}
+.modalTitle{font-weight:900}
+.xAdd{
+  display:grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap:10px;
+  padding:14px 6px;
+}
+.input{
+  border-radius:12px;
+  border:1px solid var(--line);
+  padding:10px 12px;
+  outline:none;
+  font-weight:600;
+}
+.input:focus{border-color:#c8c8c2}
+.xList{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding: 6px;
+  max-height: 52vh;
+  overflow:auto;
+}
+.xItem{
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:12px;
+  background:rgba(0,0,0,.01);
+}
+.xItemTop{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+}
+.xUrl{
+  font-weight:900;
+  word-break:break-all;
+}
+.xMemo{
+  margin-top:6px;
+  color:var(--muted);
+  font-weight:600;
+}
+.xActions{display:flex; gap:8px; align-items:center}
+.xBtn{
+  border:1px solid var(--line);
+  background:rgba(0,0,0,.02);
+  border-radius:12px;
+  padding:8px 10px;
+  cursor:pointer;
+  font-weight:800;
+}
+.xBtn:hover{background:rgba(0,0,0,.04)}
+
+@media (max-width: 920px){
+  .app{grid-template-columns: 1fr}
+  .sidebar{display:none}
+  .content{padding:18px 14px}
+  .xAdd{grid-template-columns: 1fr}
+}
