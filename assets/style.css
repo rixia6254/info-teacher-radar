@@ -308,9 +308,13 @@ h1{margin:0; font-size:26px; letter-spacing:-.2px}
   position:fixed;
   inset:0;
   background:rgba(0,0,0,.35);
-  display:grid;
+  display:none;              /* ← ここが重要 */
   place-items:center;
   padding:18px;
+}
+
+.modal:not([hidden]){
+  display:grid;
 }
 .modalCard{
   width:min(920px, 100%);
