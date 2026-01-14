@@ -1,8 +1,13 @@
 /**
- * Info Teacher Radar - fetch script
- * - Collects: ict-enews RSS, ITmedia RSS, MEXT (HTML pages), Google News RSS queries (JP)
+ * Info Teacher Radar - fetch script (stable edition)
+ * - Collects: ICT-ENews RSS, ITmedia RSS, MEXT (HTML pages), Google News RSS queries (JP)
  * - Normalizes URLs, de-dupes, tags, scoring
  * - Writes: data/items.json (last 7 days items)
+ *
+ * Design goals:
+ * - Avoid "Unexpected token catch" by keeping blocks simple and bracket-safe
+ * - Avoid hanging: fetch timeout via AbortController
+ * - Ensure ITmedia items are always collected via direct RSS (no Google News unwrap required)
  */
 
 import fs from "node:fs";
@@ -11,30 +16,33 @@ import crypto from "node:crypto";
 
 const OUT_PATH = path.join(process.cwd(), "data", "items.json");
 
-const JST_NOW = () => {
-  // Use Asia/Tokyo time in ISO-like; we store as +09:00
-  const now = new Date();
-  const jst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
-  // convert to "YYYY-MM-DDTHH:mm:ss+09:00"
-  const iso = jst.toISOString().replace("Z", "+09:00");
-  return iso;
-};
-
 const DAYS_KEEP = 7;
 const UA =
-  "Mozilla/5.0 (compatible; InfoTeacherRadar/2.0; +https://github.com/rixia6254/info-teacher-radar)";
+  "Mozilla/5.0 (compatible; InfoTeacherRadar/2.1; +https://github.com/rixia6254/info-teacher-radar)";
+const FETCH_TIMEOUT_MS = 12000; // 12s timeout to avoid hanging
+
+const JST_NOW = () => {
+  const now = new Date();
+  const jst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  return jst.toISOString().replace("Z", "+09:00");
+};
 
 async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": UA,
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    },
-  });
-  if (!res.ok) {
-    throw new Error(`Fetch failed ${res.status} ${url}`);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": UA,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+      signal: controller.signal,
+    });
+    if (!res.ok) throw new Error(`Fetch failed ${res.status} ${url}`);
+    return await res.text();
+  } finally {
+    clearTimeout(timer);
   }
-  return await res.text();
 }
 
 function sha1(s) {
@@ -45,7 +53,6 @@ function stripTracking(url) {
   try {
     const u = new URL(url);
     const params = u.searchParams;
-    // common trackers
     const drop = [
       "utm_source",
       "utm_medium",
@@ -58,40 +65,10 @@ function stripTracking(url) {
       "igshid",
     ];
     drop.forEach((k) => params.delete(k));
-    // normalize
     u.search = params.toString() ? "?" + params.toString() : "";
-    // remove trailing slash (except root)
     let out = u.toString();
-    if (out.endsWith("/") && u.pathname !== "/") {
-      out = out.slice(0, -1);
-    }
+    if (out.endsWith("/") && u.pathname !== "/") out = out.slice(0, -1);
     return out;
-  } catch {
-    return url;
-  }
-}
-
-// ✅ 追加：Google News ラッパーURL（news.google.com）→ 実URLへ展開
-async function unwrapGoogleNewsUrl(url) {
-  try {
-    if (!url) return url;
-    if (!url.includes("news.google.com")) return url;
-
-    const html = await fetchText(url);
-
-    // canonical を優先
-    const m = html.match(
-      /<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i
-    );
-    if (m && m[1]) return stripTracking(m[1]);
-
-    // fallback：og:url
-    const og = html.match(
-      /<meta[^>]+property=["']og:url["'][^>]+content=["']([^"']+)["']/i
-    );
-    if (og && og[1]) return stripTracking(og[1]);
-
-    return url;
   } catch {
     return url;
   }
@@ -122,7 +99,6 @@ function pickTag(s, tag) {
   const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i");
   const m = s.match(re);
   if (!m) return "";
-  // handle CDATA
   return m[1].replace(/^<!\[CDATA\[(.*)\]\]>$/s, "$1").trim();
 }
 
@@ -136,15 +112,12 @@ function decodeHtml(str) {
 }
 
 function parsePubDate(pub) {
-  // RSS pubDate to ISO; fallback to now
   try {
     const d = new Date(pub);
     if (Number.isNaN(d.getTime())) return null;
-    // store in JST offset string (best effort)
-    const iso = new Date(d.getTime() + 9 * 60 * 60 * 1000)
+    return new Date(d.getTime() + 9 * 60 * 60 * 1000)
       .toISOString()
       .replace("Z", "+09:00");
-    return iso;
   } catch {
     return null;
   }
@@ -181,13 +154,12 @@ function assignTabAndTags(title, url, source) {
     return { tab: TAB.MEXT, tags };
   }
 
-  // ✅ 追加：ITmedia（URL or source）を明示判定してタブ・タグを安定化
+  // ✅ ITmedia explicit handling (stable)
   const isItmedia =
     url.includes("itmedia.co.jp") || source.toLowerCase().includes("itmedia");
   if (isItmedia) {
-    // ITmedia AI+
+    // AI+
     if (url.includes("/aiplus/") || source.includes("AI+")) {
-      const t2 = (title + " " + url + " " + source + " 生成ai chatgpt llm").toLowerCase();
       const eduSignals = [
         "授業",
         "教育",
@@ -198,33 +170,28 @@ function assignTabAndTags(title, url, source) {
         "著作権",
         "個人情報",
       ];
-      const isEdu = eduSignals.some((k) => t2.includes(k));
-
+      const isEdu = eduSignals.some((k) => t.includes(k));
       if (isEdu) {
-        const tags = ["ITmedia", "AI+"];
-        if (t2.includes("事例") || t2.includes("活用")) tags.push("活用事例");
-        if (t2.includes("校務")) tags.push("校務");
-        if (t2.includes("ガイドライン") || t2.includes("指針"))
+        const tags = ["ITmedia", "AI+", "生成AI(教育)"];
+        if (t.includes("事例") || t.includes("活用")) tags.push("活用事例");
+        if (t.includes("校務")) tags.push("校務");
+        if (t.includes("ガイドライン") || t.includes("指針"))
           tags.push("ガイドライン");
-        if (t2.includes("研修")) tags.push("研修");
-        if (t2.includes("著作権")) tags.push("著作権");
-        if (t2.includes("個人情報")) tags.push("個人情報");
-        if (tags.length === 2) tags.push("生成AI(教育)");
-        return { tab: TAB.AI_EDU, tags };
+        if (t.includes("著作権")) tags.push("著作権");
+        if (t.includes("個人情報")) tags.push("個人情報");
+        return { tab: TAB.AI_EDU, tags: Array.from(new Set(tags)) };
       } else {
-        const tags = ["ITmedia", "AI+"];
-        if (t2.includes("新機能") || t2.includes("アップデート"))
-          tags.push("新機能");
-        if (t2.includes("新モデル") || t2.includes("モデル") || t2.includes("llm"))
+        const tags = ["ITmedia", "AI+", "生成AI(最新)"];
+        if (t.includes("新機能") || t.includes("アップデート")) tags.push("新機能");
+        if (t.includes("新モデル") || t.includes("モデル") || t.includes("llm"))
           tags.push("新モデル");
-        if (t2.includes("ツール") || t2.includes("サービス") || t2.includes("アプリ"))
+        if (t.includes("ツール") || t.includes("サービス") || t.includes("アプリ"))
           tags.push("AIツール");
-        if (tags.length === 2) tags.push("生成AI(最新)");
-        return { tab: TAB.AI_LATEST, tags };
+        return { tab: TAB.AI_LATEST, tags: Array.from(new Set(tags)) };
       }
     }
 
-    // ITmedia Enterprise
+    // Enterprise
     if (url.includes("/enterprise/") || source.includes("エンタープライズ")) {
       const tags = ["ITmedia", "エンタープライズ"];
       if (
@@ -236,14 +203,14 @@ function assignTabAndTags(title, url, source) {
         t.includes("フィッシング")
       )
         tags.push("セキュリティ");
-      if (t.includes("dx") || t.includes("業務") || t.includes("効率") || t.includes("ガバナンス"))
+      if (t.includes("dx") || t.includes("業務") || t.includes("効率"))
         tags.push("DX");
       if (t.includes("学校") || t.includes("教育") || t.includes("校務"))
         tags.push("校務DX");
       return { tab: TAB.ICT, tags: Array.from(new Set(tags)) };
     }
 
-    // ITmedia NEWS
+    // News
     if (url.includes("/news/") || source.includes("NEWS")) {
       const tags = ["ITmedia", "NEWS"];
       if (
@@ -260,7 +227,6 @@ function assignTabAndTags(title, url, source) {
       return { tab: TAB.ICT, tags: Array.from(new Set(tags)) };
     }
 
-    // その他ITmediaは一旦ICTへ
     return { tab: TAB.ICT, tags: ["ITmedia"] };
   }
 
@@ -335,7 +301,7 @@ function assignTabAndTags(title, url, source) {
     return { tab: TAB.INFO1, tags };
   }
 
-  // AI education vs latest
+  // AI education vs latest (general)
   if (
     t.includes("生成ai") ||
     t.includes("chatgpt") ||
@@ -371,8 +337,7 @@ function assignTabAndTags(title, url, source) {
         tags.push("新モデル");
       if (t.includes("ツール") || t.includes("サービス") || t.includes("アプリ"))
         tags.push("AIツール");
-      if (t.includes("仕事術") || t.includes("ワークフロー"))
-        tags.push("ワークフロー");
+      if (t.includes("仕事術") || t.includes("ワークフロー")) tags.push("ワークフロー");
       if (tags.length === 0) tags.push("生成AI(最新)");
       return { tab: TAB.AI_LATEST, tags };
     }
@@ -384,12 +349,12 @@ function assignTabAndTags(title, url, source) {
 
 function computeScore(item) {
   let score = 0;
-  // source boosts
+
   if (item.source.includes("ICT教育ニュース")) score += 20;
   if (item.url.includes("mext.go.jp")) score += 10;
 
-  // ✅ 追加：ITmediaを少し上に（見つけやすくする）
-  if (item.source.toLowerCase().includes("itmedia") || item.url.includes("itmedia.co.jp"))
+  // small boost for ITmedia visibility
+  if (item.url.includes("itmedia.co.jp") || item.source.toLowerCase().includes("itmedia"))
     score += 6;
 
   // tab boosts (your priority)
@@ -415,13 +380,9 @@ function computeScore(item) {
 }
 
 /** Sources */
-const ICT_ENEWS_RSS = [
-  // ict-enews RSS is advertised; URL may change, so keep this as a single place.
-  // If it fails, you can update here without touching other logic.
-  "https://ict-enews.net/?feed=rss2",
-];
+const ICT_ENEWS_RSS = ["https://ict-enews.net/?feed=rss2"];
 
-// ✅ 追加：ITmedia RSS（直取り）
+// ✅ ITmedia RSS direct feeds
 const ITMEDIA_RSS = [
   { url: "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", source: "ITmedia AI+" },
   { url: "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml", source: "ITmedia エンタープライズ" },
@@ -458,7 +419,7 @@ const GOOGLE_NEWS_QUERIES = [
   { q: "著作権 生成AI 教育", tabHint: TAB.AI_EDU },
   { q: "個人情報 生成AI 学校", tabHint: TAB.AI_EDU },
 
-  // AI latest (JP only)
+  // AI latest (JP)
   { q: "生成AI 新機能", tabHint: TAB.AI_LATEST },
   { q: "AIツール 新サービス", tabHint: TAB.AI_LATEST },
   { q: "LLM 新モデル", tabHint: TAB.AI_LATEST },
@@ -469,16 +430,12 @@ const GOOGLE_NEWS_QUERIES = [
 
 function googleNewsRssUrl(query) {
   const q = encodeURIComponent(query);
-  // JP oriented RSS parameters
   return `https://news.google.com/rss/search?q=${q}&hl=ja&gl=JP&ceid=JP:ja`;
 }
 
 const MEXT_PAGES = [
-  // New information (last month)
   "https://www.mext.go.jp/a_menu/whatsnew/index.htm",
-  // High school informatics notices (important for teachers)
   "https://www.mext.go.jp/a_menu/shotou/zyouhou/1296907.htm",
-  // Informatics special page
   "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm",
 ];
 
@@ -489,127 +446,80 @@ function parseLinksFromHtml(html, baseUrl) {
   while ((m = re.exec(html))) {
     const href = m[1];
     const text = decodeHtml(
-      m[2]
-        .replace(/<[^>]+>/g, " ")
-        .replace(/\s+/g, " ")
-        .trim()
+      m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
     );
     if (!href) continue;
     if (href.startsWith("javascript:")) continue;
-    // resolve relative
+
     let abs = "";
     try {
       abs = new URL(href, baseUrl).toString();
     } catch {
       continue;
     }
-    // basic filter for news-ish links
+
     if (text.length < 8) continue;
-    // include pdf pages too
     links.push({ title: text, url: abs });
   }
   return links;
 }
 
+// Helper: safe RSS fetch (prevents one bad source from crashing everything)
+async function collectFromRssFeed(feedUrl, sourceName) {
+  try {
+    const xml = await fetchText(feedUrl);
+    const parsed = parseRssItems(xml);
+    return parsed.map((p) => ({
+      title: p.title,
+      url: stripTracking(p.url),
+      source: sourceName,
+      publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
+    }));
+  } catch (e) {
+    console.warn("RSS failed:", sourceName, feedUrl, e.message);
+    return [];
+  }
+}
+
 async function collect() {
   const items = [];
 
-  // 1) ict-enews RSS
+  // 1) ICT-ENews
   for (const url of ICT_ENEWS_RSS) {
-    try {
-      const xml = await fetchText(url);
-      const parsed = parseRssItems(xml);
-      for (const p of parsed) {
-        items.push({
-          title: p.title,
-          url: stripTracking(p.url),
-          source: "ICT教育ニュース",
-          publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
-        });
-      }
-    } catch (e) {
-      console.warn("ict-enews RSS failed:", e.message);
-    }
+    const got = await collectFromRssFeed(url, "ICT教育ニュース");
+    items.push(...got);
   }
 
-  // 1.5) ✅ ITmedia RSS（直取り）
+  // 2) ITmedia direct feeds
   for (const f of ITMEDIA_RSS) {
-    try {
-      const xml = await fetchText(f.url);
-      const parsed = parseRssItems(xml);
-      for (const p of parsed) {
-        items.push({
-          title: p.title,
-          url: stripTracking(p.url),
-          source: f.source,
-          publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
-        });
-      }
-    } catch (e) {
-      console.warn("ITmedia RSS failed:", f.url, e.message);
-    }
+    const got = await collectFromRssFeed(f.url, f.source);
+    items.push(...got);
   }
 
-  // 2) Google News RSS queries
+  // 3) Google News RSS queries (no unwrap to keep stable/fast)
   for (const q of GOOGLE_NEWS_QUERIES) {
     const rss = googleNewsRssUrl(q.q);
-    try {
-      const xml = await fetchText(rss);
-      const parsed = parseRssItems(xml);
-      for (const p of parsed) {
-        const rawUrl = stripTracking(p.url);
-
-// news.google.com のときだけ、さらに「ITmediaっぽい」なら unwrap
-let realUrl = rawUrl;
-if (rawUrl.includes("news.google.com")) {
-  const hint = (p.title || "").toLowerCase();
-  const itmediaHint =
-    hint.includes("itmedia") ||
-    hint.includes("アイティメディア") ||
-    hint.includes("itメディア");
-
-  if (itmediaHint) {
-    realUrl = await unwrapGoogleNewsUrl(rawUrl);
+    const got = await collectFromRssFeed(rss, `Google News: ${q.q}`);
+    items.push(...got);
   }
 
+  // 4) MEXT HTML pages
+  for (const page of MEXT_PAGES) {
+    try {
+      const html = await fetchText(page);
+      const links = parseLinksFromHtml(html, page).slice(0, 60);
+      for (const l of links) {
         items.push({
-          title: p.title,
-          url: stripTracking(realUrl),
-          source: `Google News: ${q.q}`,
-          publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
+          title: l.title,
+          url: stripTracking(l.url),
+          source: "文部科学省",
+          publishedAt: JST_NOW(),
         });
       }
     } catch (e) {
-      console.warn("Google News RSS failed:", q.q, e.message);
+      console.warn("MEXT page failed:", page, e.message);
     }
   }
-
-  // 3) MEXT HTML pages (link harvest)
- for (const p of parsed) {
-  const rawUrl = stripTracking(p.url);
-
-  // ✅ wrapper 展開は「ITmediaっぽい時だけ」
-  let realUrl = rawUrl;
-  if (rawUrl.includes("news.google.com")) {
-    const hint = (p.title || "").toLowerCase();
-    const itmediaHint =
-      hint.includes("itmedia") ||
-      hint.includes("アイティメディア") ||
-      hint.includes("itメディア");
-
-    if (itmediaHint) {
-      realUrl = await unwrapGoogleNewsUrl(rawUrl);
-    }
-  }
-
-  // ✅ items.push は必ず “if の外” に置く
-  items.push({
-    title: p.title,
-    url: stripTracking(realUrl),
-    source: `Google News: ${q.q}`,
-    publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
-  });
-}
 
   return items;
 }
@@ -640,7 +550,6 @@ function dedupeAndEnrich(rawItems) {
     if (!base) {
       map.set(id, item);
     } else {
-      // merge: keep best title length and max score
       const betterTitle = item.title.length > base.title.length ? item.title : base.title;
       const betterPub =
         new Date(item.publishedAt) < new Date(base.publishedAt) ? base.publishedAt : item.publishedAt;
@@ -657,7 +566,7 @@ function dedupeAndEnrich(rawItems) {
 
   let items = Array.from(map.values());
 
-  // keep last 7 days (publishedAt based; MEXT uses "now" so it will stay—acceptable)
+  // keep last 7 days
   items = items.filter((x) => daysDiffFromNow(x.publishedAt) <= DAYS_KEEP + 0.001);
 
   // sort by score desc then time desc
@@ -665,14 +574,13 @@ function dedupeAndEnrich(rawItems) {
     (a, b) => (b.score || 0) - (a.score || 0) || new Date(b.publishedAt) - new Date(a.publishedAt)
   );
 
-  // cap overall list to keep site fast
+  // cap overall list
   items = items.slice(0, 800);
 
   return items;
 }
 
 async function main() {
-  // ensure dirs
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
 
   const raw = await collect();
