@@ -1,4 +1,5 @@
 /* Info Teacher Radar - front-end (static) */
+console.log("app.js loaded: v20260114-2");
 
 const TABS = [
   { key: "TODAY", label: "今日のピックアップ" },
