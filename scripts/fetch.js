@@ -559,8 +559,18 @@ async function collect() {
       for (const p of parsed) {
         const rawUrl = stripTracking(p.url);
 
-        // ✅ Google News wrapper → 実URLに（精度アップ）
-        const realUrl = await unwrapGoogleNewsUrl(rawUrl);
+// news.google.com のときだけ、さらに「ITmediaっぽい」なら unwrap
+let realUrl = rawUrl;
+if (rawUrl.includes("news.google.com")) {
+  const hint = (p.title || "").toLowerCase();
+  const itmediaHint =
+    hint.includes("itmedia") ||
+    hint.includes("アイティメディア") ||
+    hint.includes("itメディア");
+
+  if (itmediaHint) {
+    realUrl = await unwrapGoogleNewsUrl(rawUrl);
+  }
 
         items.push({
           title: p.title,
