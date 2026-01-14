@@ -599,6 +599,8 @@ async function boot(force = false) {
 ------------------------- */
 (async function main() {
   bind();
+  renderXModal(false); // ← 念のため最初は必ず閉じる
   setTab("TODAY");
   await boot();
 })();
+
