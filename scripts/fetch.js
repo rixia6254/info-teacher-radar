@@ -585,23 +585,31 @@ if (rawUrl.includes("news.google.com")) {
   }
 
   // 3) MEXT HTML pages (link harvest)
-  for (const page of MEXT_PAGES) {
-    try {
-      const html = await fetchText(page);
-      const links = parseLinksFromHtml(html, page);
-      // take top 60 links per page (enough)
-      for (const l of links.slice(0, 60)) {
-        items.push({
-          title: l.title,
-          url: stripTracking(l.url),
-          source: "文部科学省",
-          publishedAt: JST_NOW(), // MEXT pages don't always expose per-link dates
-        });
-      }
-    } catch (e) {
-      console.warn("MEXT page failed:", page, e.message);
+ for (const p of parsed) {
+  const rawUrl = stripTracking(p.url);
+
+  // ✅ wrapper 展開は「ITmediaっぽい時だけ」
+  let realUrl = rawUrl;
+  if (rawUrl.includes("news.google.com")) {
+    const hint = (p.title || "").toLowerCase();
+    const itmediaHint =
+      hint.includes("itmedia") ||
+      hint.includes("アイティメディア") ||
+      hint.includes("itメディア");
+
+    if (itmediaHint) {
+      realUrl = await unwrapGoogleNewsUrl(rawUrl);
     }
   }
+
+  // ✅ items.push は必ず “if の外” に置く
+  items.push({
+    title: p.title,
+    url: stripTracking(realUrl),
+    source: `Google News: ${q.q}`,
+    publishedAt: parsePubDate(p.publishedRaw) || JST_NOW(),
+  });
+}
 
   return items;
 }
