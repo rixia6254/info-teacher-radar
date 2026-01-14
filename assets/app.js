@@ -251,4 +251,259 @@ function renderCards(){
   $("emptyState").hidden = filtered.length !== 0;
 
   for(const it of filtered){
-    const card = document.createElement
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const top = document.createElement("div");
+    top.className = "cardTop";
+
+    const left = document.createElement("div");
+
+    const h = document.createElement("h3");
+    h.className = "title";
+    h.textContent = it.title || "(no title)";
+    left.appendChild(h);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = `${it.source || "—"} ・ ${isoToDate(it.publishedAt) || "—"}`;
+    left.appendChild(meta);
+
+    const pills = document.createElement("div");
+    pills.className = "pills";
+    (it.tags || []).slice(0, 8).forEach(t => {
+      const p = document.createElement("span");
+      p.className = "pill";
+      p.textContent = t;
+      pills.appendChild(p);
+    });
+    left.appendChild(pills);
+
+    const actions = document.createElement("div");
+    actions.className = "cardActions";
+
+    const star = document.createElement("button");
+    const on = isBookmarked(it.id);
+    star.className = "star" + (on ? " on" : "");
+    star.textContent = on ? "★" : "☆";
+    star.title = "ブックマーク";
+    star.onclick = () => {
+      toggleBookmark(it);
+      renderTags();
+      applyFilters();
+    };
+
+    const a = document.createElement("a");
+    a.className = "openLink";
+    a.textContent = "Open";
+    a.href = it.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+
+    actions.appendChild(star);
+    actions.appendChild(a);
+
+    top.appendChild(left);
+    top.appendChild(actions);
+
+    card.appendChild(top);
+    wrap.appendChild(card);
+  }
+}
+
+/* X clips */
+function loadX(){
+  try{
+    const raw = localStorage.getItem(LS_X);
+    if(!raw) return [];
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr) ? arr : [];
+  }catch{ return []; }
+}
+function saveX(arr){
+  localStorage.setItem(LS_X, JSON.stringify(arr));
+}
+function renderXList(){
+  const list = $("xList");
+  list.innerHTML = "";
+  const arr = loadX().sort((a,b)=> (b.ts||0) - (a.ts||0));
+  for(const item of arr){
+    const box = document.createElement("div");
+    box.className = "xItem";
+
+    const top = document.createElement("div");
+    top.className = "xItemTop";
+
+    const left = document.createElement("div");
+    const url = document.createElement("div");
+    url.className = "xUrl";
+    url.textContent = item.url;
+    left.appendChild(url);
+
+    const memo = document.createElement("div");
+    memo.className = "xMemo";
+    memo.textContent = item.memo ? item.memo : "（メモなし）";
+    left.appendChild(memo);
+
+    const actions = document.createElement("div");
+    actions.className = "xActions";
+
+    const open = document.createElement("a");
+    open.className = "xBtn";
+    open.textContent = "Open";
+    open.href = item.url;
+    open.target = "_blank";
+    open.rel = "noopener noreferrer";
+
+    const del = document.createElement("button");
+    del.className = "xBtn";
+    del.textContent = "削除";
+    del.onclick = () => {
+      const next = loadX().filter(x => x.ts !== item.ts);
+      saveX(next);
+      renderXList();
+    };
+
+    actions.appendChild(open);
+    actions.appendChild(del);
+
+    top.appendChild(left);
+    top.appendChild(actions);
+
+    box.appendChild(top);
+    list.appendChild(box);
+  }
+}
+
+function renderXModal(open){
+  const modal = $("xModal");
+  if(open){
+    modal.hidden = false;
+    renderXList();
+  } else {
+    modal.hidden = true;
+  }
+}
+
+/* Export / Import bookmarks */
+function exportBookmarks(){
+  const bm = loadBookmarks();
+  const blob = new Blob([JSON.stringify(bm, null, 2)], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "info-teacher-radar_bookmarks.json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+function importBookmarks(file){
+  const reader = new FileReader();
+  reader.onload = () => {
+    try{
+      const obj = JSON.parse(reader.result);
+      if(!obj || typeof obj !== "object") throw new Error("Invalid JSON");
+      if(!obj.map || !obj.order) throw new Error("Invalid bookmark format");
+      // merge
+      const bm = loadBookmarks();
+      for(const id of obj.order){
+        if(obj.map[id] && !bm.map[id]){
+          bm.map[id] = obj.map[id];
+          bm.order.unshift(id);
+        }
+      }
+      // de-dupe order
+      bm.order = Array.from(new Set(bm.order));
+      saveBookmarks(bm);
+      alert("ブックマークを読み込みました。");
+      renderTags();
+      applyFilters();
+    }catch(e){
+      alert("読み込みに失敗しました: " + e.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+/* Load data */
+async function loadItems(){
+  const res = await fetch("./data/items.json?_=" + Date.now());
+  if(!res.ok) throw new Error("items.json load failed");
+  const data = await res.json();
+  allItems = (data.items || []).map(x => ({
+    ...x,
+    tags: x.tags || []
+  }));
+  $("metaGenerated").textContent = data.generatedAt ? `更新: ${isoToDate(data.generatedAt)}` : "—";
+}
+
+function bind(){
+  // keyboard: / to focus search
+  document.addEventListener("keydown", (e)=>{
+    if(e.key === "/" && document.activeElement !== $("searchInput")){
+      e.preventDefault();
+      $("searchInput").focus();
+    }
+    if(e.key === "Escape"){
+      if(!$("xModal").hidden) renderXModal(false);
+    }
+  });
+
+  $("searchInput").addEventListener("input", applyFilters);
+  $("daysSelect").addEventListener("change", applyFilters);
+  $("sortSelect").addEventListener("change", applyFilters);
+
+  $("btnRefresh").onclick = async () => {
+    await boot(true);
+  };
+
+  $("btnToday").onclick = () => setTab("TODAY");
+  $("btnBookmarks").onclick = () => setTab("BOOKMARKS");
+  $("btnXTab").onclick = () => setTab("X");
+
+  $("btnExport").onclick = exportBookmarks;
+  $("importFile").addEventListener("change", (e)=>{
+    const f = e.target.files?.[0];
+    if(f) importBookmarks(f);
+    e.target.value = "";
+  });
+
+  $("xClose").onclick = () => renderXModal(false);
+  $("xAddBtn").onclick = () => {
+    const url = $("xUrl").value.trim();
+    const memo = $("xMemo").value.trim();
+    if(!url) return;
+    const arr = loadX();
+    arr.unshift({ url, memo, ts: Date.now() });
+    saveX(arr.slice(0, 500)); // soft cap
+    $("xUrl").value = "";
+    $("xMemo").value = "";
+    renderXList();
+  };
+
+  // click outside modal to close
+  $("xModal").addEventListener("click", (e)=>{
+    if(e.target.id === "xModal") renderXModal(false);
+  });
+}
+
+async function boot(force=false){
+  try{
+    await loadItems();
+    renderNav();
+    updateTitles();
+    renderTags();
+    applyFilters();
+  }catch(e){
+    console.error(e);
+    $("viewTitle").textContent = "読み込みエラー";
+    $("viewSub").textContent = "data/items.json が取得できません。Actionsの実行やファイル配置を確認してください。";
+    $("cards").innerHTML = "";
+    $("emptyState").hidden = false;
+  }
+}
+
+(async function main(){
+  bind();
+  setTab("TODAY");
+  await boot();
+})();
