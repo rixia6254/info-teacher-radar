@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Info Teacher Radar</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/style.css?v=20260114-3" />
 </head>
 <body>
   <div class="app">
@@ -58,7 +58,7 @@
             <h1 id="viewTitle">今日のピックアップ</h1>
             <div class="sub" id="viewSub">授業に効く情報を上に、自動で並べます。</div>
           </div>
-          <div class="filters">
+          <div class="filters" id="filters">
             <select id="daysSelect" class="select">
               <option value="7">直近7日</option>
               <option value="3">直近3日</option>
@@ -73,7 +73,24 @@
 
         <div class="tagRow" id="tagRow"></div>
 
+        <!-- 通常一覧 -->
         <div class="cards" id="cards"></div>
+
+        <!-- Xまとめ（通常タブ表示） -->
+        <div class="xPanel" id="xPanel" hidden>
+          <div class="xPanelTop">
+            <div class="xPanelTitle">Xまとめ（手動クリップ）</div>
+            <div class="muted small">※内容の自動取得はしません（壊れにくさ優先）。URL＋メモで管理します。</div>
+          </div>
+
+          <div class="xAddRow">
+            <input id="xUrl" class="input" placeholder="Xの投稿URLを貼り付け" />
+            <input id="xMemo" class="input" placeholder="メモ（任意）" />
+            <button class="btn" id="xAddBtn">追加</button>
+          </div>
+
+          <div class="xList" id="xList"></div>
+        </div>
 
         <div class="empty" id="emptyState" hidden>
           <div class="emptyTitle">表示できる記事がありません</div>
@@ -87,31 +104,8 @@
         </div>
       </footer>
     </main>
-
-    <!-- X まとめ（手動クリップ）モーダル -->
-    <div class="modal" id="xModal" hidden>
-      <div class="modalCard">
-        <div class="modalHeader">
-          <div class="modalTitle">Xまとめ（手動クリップ）</div>
-          <button class="btnGhost" id="xClose">閉じる</button>
-        </div>
-
-        <div class="xAdd">
-          <input id="xUrl" class="input" placeholder="Xの投稿URLを貼り付け" />
-          <input id="xMemo" class="input" placeholder="メモ（任意）" />
-          <button class="btn" id="xAddBtn">追加</button>
-        </div>
-
-        <div class="xList" id="xList"></div>
-
-        <div class="muted small">
-          ※内容の自動取得はしません（壊れにくさ優先）。URL＋メモで管理します。
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <script src="./assets/app.js?v=20260114-2"></script>
+  <script src="./assets/app.js?v=20260114-3"></script>
 </body>
 </html>
