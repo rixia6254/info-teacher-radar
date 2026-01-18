@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-18T07:11:07.325+09:00",
+  "generatedAt": "2026-01-19T07:11:28.618+09:00",
   "items": [
     {
       "id": "sha1:0526c0cccb3a04d2ad0e8552a118e2a63f89084c",
@@ -218,16 +218,16 @@
       "score": 32
     },
     {
-      "id": "sha1:0ed374ad9bcfc00012e223fa354b0c09ade3695f",
+      "id": "sha1:e09b1c9b850f98592f5a2ae1c9b3b53778f27512",
       "title": "2026年度（令和8年度）大学入学共通テスト 受験の注意・問題・回答速報・解説サイト情報（ベネッセ/駿台・東進・河合塾・朝日新聞・テックジム）",
-      "url": "https://ict-enews.net/2026/01/13kyotu",
+      "url": "https://ict-enews.net/2026/01/18kyotu",
       "source": "ICT教育ニュース",
-      "publishedAt": "2026-01-17T00:00:28.000+09:00",
+      "publishedAt": "2026-01-18T10:00:28.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
       ],
-      "score": 25
+      "score": 27
     },
     {
       "id": "sha1:0d9f60509c93dc84291b35774f4363a836302443",
@@ -242,11 +242,11 @@
       "score": 25
     },
     {
-      "id": "sha1:1e8777306d8b0a822e2ea9d19417e646faeef27a",
-      "title": "児童生徒向け教材等",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370023.htm",
+      "id": "sha1:d6c12f4c4822718763355521a4eef6908f8a6060",
+      "title": "授業目的公衆送信補償金制度",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00395.html",
       "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
       "tab": "MEXT",
       "tags": [
         "文科省"
@@ -254,16 +254,424 @@
       "score": 23
     },
     {
-      "id": "sha1:d6c12f4c4822718763355521a4eef6908f8a6060",
-      "title": "授業目的公衆送信補償金制度",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00395.html",
+      "id": "sha1:1e8777306d8b0a822e2ea9d19417e646faeef27a",
+      "title": "児童生徒向け教材等",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370023.htm",
       "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
       "tab": "MEXT",
       "tags": [
         "文科省"
       ],
       "score": 23
+    },
+    {
+      "id": "sha1:d2dbc8f727d73c04fb9af4551774a62b9abce683",
+      "title": "文部科学省サイト「教育の情報化の推進」をリニューアルしました。",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/mext_03259.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:fa7a3498a342a808f19d88da47a965e39878e3a6",
+      "title": "基金による1人1台端末の更新",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/mext_02624.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:afd4356aa11731206aad921f2bd7016445740bdf",
+      "title": "学校のネットワーク環境整備",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_02734.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:0487911da9e68ae3ebae79462fa0ac1aa2a471ef",
+      "title": "学校における教育の情報化の実態等に関する調査",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370036.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:9fffc22f064769d2c9b3593969d47b9ac01eb50c",
+      "title": "教育情報セキュリティの確保",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1403098.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:6834379cf49831b9a9911d0b2728e5a477c7500b",
+      "title": "1人1台端末の年度更新",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01736.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:2e5c7e20279d61a4acb59405b39b6ba6123f893c",
+      "title": "端末利用に当たっての児童生徒の健康への配慮",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00070.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:a85e23b61255411d39757ad93dff1b3b071d43e9",
+      "title": "実証研究・調査研究",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369630.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:3fbb0e7867368d377b5d97b30b7a201c1cb5d325",
+      "title": "GIGAスクール構想の下での校務DXチェックリスト",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_02597.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:dc6146c015ebd770a50de09f8f14c6bea1bea831",
+      "title": "次世代校務DXガイドブック",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1397369_00002.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:f2d83f92d5fa8c72f258675b16d3a48d8cb2c1a4",
+      "title": "教育映像等審査制度",
+      "url": "https://www.mext.go.jp/a_menu/shougai/movie/main9_a1.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:588e446fe1a6d9b8e0fcc93f2aae1ea85178cf50",
+      "title": "ページの先頭に戻る",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#top",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:7659a6267d4c86545610c500992631573ca0be4a",
+      "title": "文部科学省ホームページトップへ",
+      "url": "https://www.mext.go.jp/index.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.537+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:5afa237a09133305fc14433f95ecc89766887cf1",
+      "title": "小学校、中学校、高等学校",
+      "url": "https://www.mext.go.jp/a_menu/01_c.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:3306dbe1e7ab41cd3bfac9f6e13f20c925856eeb",
+      "title": "教育の情報化に関する方針等",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink1",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:7f03210c17b16249d2b3da3a93a314c87f1dcf24",
+      "title": "GIGAスクール構想",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink2",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:843632ce77d563ab21050c0904da07571160ebe7",
+      "title": "教科指導におけるICT活用",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink4",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:9e2144d6aad2a4bc962709fafad6b15a49252fab",
+      "title": "ICT環境整備・運用",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink5",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:51aaf1d851dfb7275b769c348a260a1c98ac381f",
+      "title": "学校教育の情報化の推進に関する法律",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1418577.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:3ff7b8bd8b76b7ef8d7caaa6263a69cbe63e4a86",
+      "title": "教育の情報化に関する手引き",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00117.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:817ca387a07cd94954416219b8efde93886e77d4",
+      "title": "検討会・有識者会議",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369607.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "会議資料"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:2a4e0711f85c5c17f39331532889fcc45fba2af4",
+      "title": "GIGAスクール構想について",
+      "url": "https://www.mext.go.jp/a_menu/other/index_00011111.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:da6e0ef99fb10c828dd2fb2ee37397113ac2c973",
+      "title": "情報活用能力の育成",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369615.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:0492df1f13eaad691f9e5348b64c518b8c2b4859",
+      "title": "情報モラル教育の充実",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369617.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:42d9eab0b1c5c06acd1e0ef613eb98d762f73c40",
+      "title": "小学校プログラミング教育",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1375607.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:a81218a0daf1e2465784a6ce6dfb1bb469902620",
+      "title": "中学校技術・家庭科（技術分野）内容「Ｄ 情報の技術」",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00617.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:731931e1bcc6267ccfe172d1b4040efde3a044a2",
+      "title": "高等学校情報科に関する特設ページ",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1416746.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:219b8ac6328f859bf3d42c42871b754a52bca749",
+      "title": "StuDX Style",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01097.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:bec1c9017f5059992fdc2c03854d7fc00b73579b",
+      "title": "実証研究・調査研究",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370021.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:7ed9a631ea6d1c78b4e0af0fa243d768f9a32be9",
+      "title": "教員向けの指導資料等",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370022.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "会議資料"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:0a1b8dadb9715e1fd232484974512830d89e273e",
+      "title": "遠隔教育特例制度",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1420756_00001.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:e55156339f77d475acba0107b260063ba335c235",
+      "title": "教育の情報化に関する外部人材",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01004.html",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:41ce10119d3328592181d0c01a9db70aa867501e",
+      "title": "教員のICT活用指導力の向上",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369631.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
+    },
+    {
+      "id": "sha1:51c0abcb3d394043d7b55f15815f8c272fedb732",
+      "title": "学校のICT環境の整備（方針・計画）",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369635.htm",
+      "source": "文部科学省",
+      "publishedAt": "2026-01-19T07:11:28.536+09:00",
+      "tab": "MEXT",
+      "tags": [
+        "文科省"
+      ],
+      "score": 18
     },
     {
       "id": "sha1:33fb41a9534aa3975eadfbaf867f2f2d3fe2011a",
@@ -276,414 +684,6 @@
         "ITmedia",
         "エンタープライズ",
         "セキュリティ"
-      ],
-      "score": 20
-    },
-    {
-      "id": "sha1:5afa237a09133305fc14433f95ecc89766887cf1",
-      "title": "小学校、中学校、高等学校",
-      "url": "https://www.mext.go.jp/a_menu/01_c.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:3306dbe1e7ab41cd3bfac9f6e13f20c925856eeb",
-      "title": "教育の情報化に関する方針等",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink1",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:7f03210c17b16249d2b3da3a93a314c87f1dcf24",
-      "title": "GIGAスクール構想",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink2",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:843632ce77d563ab21050c0904da07571160ebe7",
-      "title": "教科指導におけるICT活用",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink4",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:9e2144d6aad2a4bc962709fafad6b15a49252fab",
-      "title": "ICT環境整備・運用",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#inpageLink5",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:d2dbc8f727d73c04fb9af4551774a62b9abce683",
-      "title": "文部科学省サイト「教育の情報化の推進」をリニューアルしました。",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/mext_03259.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:51aaf1d851dfb7275b769c348a260a1c98ac381f",
-      "title": "学校教育の情報化の推進に関する法律",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1418577.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:3ff7b8bd8b76b7ef8d7caaa6263a69cbe63e4a86",
-      "title": "教育の情報化に関する手引き",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00117.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:817ca387a07cd94954416219b8efde93886e77d4",
-      "title": "検討会・有識者会議",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369607.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "会議資料"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:2a4e0711f85c5c17f39331532889fcc45fba2af4",
-      "title": "GIGAスクール構想について",
-      "url": "https://www.mext.go.jp/a_menu/other/index_00011111.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:da6e0ef99fb10c828dd2fb2ee37397113ac2c973",
-      "title": "情報活用能力の育成",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369615.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:0492df1f13eaad691f9e5348b64c518b8c2b4859",
-      "title": "情報モラル教育の充実",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369617.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:42d9eab0b1c5c06acd1e0ef613eb98d762f73c40",
-      "title": "小学校プログラミング教育",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1375607.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:a81218a0daf1e2465784a6ce6dfb1bb469902620",
-      "title": "中学校技術・家庭科（技術分野）内容「Ｄ 情報の技術」",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00617.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:731931e1bcc6267ccfe172d1b4040efde3a044a2",
-      "title": "高等学校情報科に関する特設ページ",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1416746.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:219b8ac6328f859bf3d42c42871b754a52bca749",
-      "title": "StuDX Style",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01097.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:bec1c9017f5059992fdc2c03854d7fc00b73579b",
-      "title": "実証研究・調査研究",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370021.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:7ed9a631ea6d1c78b4e0af0fa243d768f9a32be9",
-      "title": "教員向けの指導資料等",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370022.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "会議資料"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:0a1b8dadb9715e1fd232484974512830d89e273e",
-      "title": "遠隔教育特例制度",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1420756_00001.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:e55156339f77d475acba0107b260063ba335c235",
-      "title": "教育の情報化に関する外部人材",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01004.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:41ce10119d3328592181d0c01a9db70aa867501e",
-      "title": "教員のICT活用指導力の向上",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369631.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:51c0abcb3d394043d7b55f15815f8c272fedb732",
-      "title": "学校のICT環境の整備（方針・計画）",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369635.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:fa7a3498a342a808f19d88da47a965e39878e3a6",
-      "title": "基金による1人1台端末の更新",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/mext_02624.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:afd4356aa11731206aad921f2bd7016445740bdf",
-      "title": "学校のネットワーク環境整備",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_02734.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:0487911da9e68ae3ebae79462fa0ac1aa2a471ef",
-      "title": "学校における教育の情報化の実態等に関する調査",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1370036.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:9fffc22f064769d2c9b3593969d47b9ac01eb50c",
-      "title": "教育情報セキュリティの確保",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1403098.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:6834379cf49831b9a9911d0b2728e5a477c7500b",
-      "title": "1人1台端末の年度更新",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01736.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:2e5c7e20279d61a4acb59405b39b6ba6123f893c",
-      "title": "端末利用に当たっての児童生徒の健康への配慮",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00070.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:a85e23b61255411d39757ad93dff1b3b071d43e9",
-      "title": "実証研究・調査研究",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1369630.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:3fbb0e7867368d377b5d97b30b7a201c1cb5d325",
-      "title": "GIGAスクール構想の下での校務DXチェックリスト",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_02597.html",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:dc6146c015ebd770a50de09f8f14c6bea1bea831",
-      "title": "次世代校務DXガイドブック",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1397369_00002.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:f2d83f92d5fa8c72f258675b16d3a48d8cb2c1a4",
-      "title": "教育映像等審査制度",
-      "url": "https://www.mext.go.jp/a_menu/shougai/movie/main9_a1.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:588e446fe1a6d9b8e0fcc93f2aae1ea85178cf50",
-      "title": "ページの先頭に戻る",
-      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/index.htm#top",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:7659a6267d4c86545610c500992631573ca0be4a",
-      "title": "文部科学省ホームページトップへ",
-      "url": "https://www.mext.go.jp/index.htm",
-      "source": "文部科学省",
-      "publishedAt": "2026-01-18T07:11:07.248+09:00",
-      "tab": "MEXT",
-      "tags": [
-        "文科省"
       ],
       "score": 18
     },
@@ -734,6 +734,32 @@
       "score": 18
     },
     {
+      "id": "sha1:2a3aa4e8dd3b507af119951df152a03447250bcd",
+      "title": "教育AI活用協会、小学生を対象とした「生成AIリテラシー」動画教材（全5本）公開 - ICT教育ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XdFF0XzhIblQtUXF6cHBscDdBc2RlR0xHbllodTAycmVkc3JwaW12RnFzeE1RSC13N1NoWHBSeDJPcllSVE5NYTQ1aHFua05VQjBv?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-16T09:02:12.000+09:00",
+      "tab": "ICT",
+      "tags": [
+        "ICT教育"
+      ],
+      "score": 17
+    },
+    {
+      "id": "sha1:43255003654d70c8a67cb00f81a3f42456880df5",
+      "title": "Repromptとは何か：1クリックで情報が盗まれる生成AI攻撃の仕組み",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2601/19/news017.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-19T05:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
+      ],
+      "score": 16
+    },
+    {
       "id": "sha1:e5b3ee99425270be0231e2ad10c6d3e8b2f08cd6",
       "title": "FortiSIEMなどFortinetの複数製品に重大な脆弱性　急ぎアップデート推奨",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2601/16/news035.html",
@@ -745,7 +771,7 @@
         "エンタープライズ",
         "セキュリティ"
       ],
-      "score": 18
+      "score": 16
     },
     {
       "id": "sha1:fad8957b42e84b9588b96bf46ba8fff54212c207",
@@ -758,7 +784,7 @@
         "ITmedia",
         "エンタープライズ"
       ],
-      "score": 18
+      "score": 16
     },
     {
       "id": "sha1:975d30f1b03f4e93fab98bfd73442f4a26ba6432",
@@ -772,7 +798,7 @@
         "エンタープライズ",
         "セキュリティ"
       ],
-      "score": 18
+      "score": 16
     },
     {
       "id": "sha1:39313cc31f0a49efd314d47ea9d9978ad4da05b7",
@@ -785,44 +811,6 @@
         "ITmedia",
         "エンタープライズ",
         "セキュリティ"
-      ],
-      "score": 18
-    },
-    {
-      "id": "sha1:2a3aa4e8dd3b507af119951df152a03447250bcd",
-      "title": "教育AI活用協会、小学生を対象とした「生成AIリテラシー」動画教材（全5本）公開 - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XdFF0XzhIblQtUXF6cHBscDdBc2RlR0xHbllodTAycmVkc3JwaW12RnFzeE1RSC13N1NoWHBSeDJPcllSVE5NYTQ1aHFua05VQjBv?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-16T09:02:12.000+09:00",
-      "tab": "ICT",
-      "tags": [
-        "ICT教育"
-      ],
-      "score": 17
-    },
-    {
-      "id": "sha1:6ee8cbfc9b2b98559741a234087cbec52101c237",
-      "title": "メイツ、生成AI活用ICT教材「aim@」英検二次試験対策 WAYSで高い学習成果 - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xTFFubkhQUWExcHNDMlZjWHZXXzZteDhRN1g0ZWhMME1udmxHVm5lU3VZVTRxTG5LajRHXzhPTlNYd1E0RlhWem9jMVkybkJMY2lkMg?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T08:06:43.000+09:00",
-      "tab": "ICT",
-      "tags": [
-        "ICT教育"
-      ],
-      "score": 17
-    },
-    {
-      "id": "sha1:f80f2ec08fd8b6d5f5214c2eb90ea1a21a3a6c27",
-      "title": "ChatGPTに月額1500円の「Go」プラン登場　広告表示テストも開始",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2601/17/news031.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-17T07:23:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
       ],
       "score": 16
     },
@@ -961,14 +949,28 @@
       "score": 16
     },
     {
-      "id": "sha1:4278cddf8c583a9077a2802fce63b5b94a81cfc5",
-      "title": "Google for Education 「クラウド×生成AIで授業が変わる！教科の本質に迫るセミナー3days」を2/25-27にオンラインで開催 - 教育家庭新聞社",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tM3Rqekl2bjZ3ZWlCd2lQaG1UMXlSb1dwRWhFUmtzTzRjSFBrMm5pengzMXZ3bnBIWWRPU2h3QWV5VTZ2VWNQUmN2azJuZ1RPS2lB?oc=5",
+      "id": "sha1:6ee8cbfc9b2b98559741a234087cbec52101c237",
+      "title": "メイツ、生成AI活用ICT教材「aim@」英検二次試験対策 WAYSで高い学習成果 - ICT教育ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xTFFubkhQUWExcHNDMlZjWHZXXzZteDhRN1g0ZWhMME1udmxHVm5lU3VZVTRxTG5LajRHXzhPTlNYd1E0RlhWem9jMVkybkJMY2lkMg?oc=5",
       "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-17T10:03:54.000+09:00",
-      "tab": "AI_EDU",
+      "publishedAt": "2026-01-15T08:06:43.000+09:00",
+      "tab": "ICT",
       "tags": [
-        "活用事例"
+        "ICT教育"
+      ],
+      "score": 15
+    },
+    {
+      "id": "sha1:f80f2ec08fd8b6d5f5214c2eb90ea1a21a3a6c27",
+      "title": "ChatGPTに月額1500円の「Go」プラン登場　広告表示テストも開始",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2601/17/news031.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-17T07:23:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
       ],
       "score": 14
     },
@@ -1115,89 +1117,16 @@
       "score": 14
     },
     {
-      "id": "sha1:9a331ff70bfc648c382ae5b592af3dc9186ac315",
-      "title": "「管理職罰ゲーム化」を防ぐ？　AI活用できるマネジャーと活用できないマネジャーの違い",
-      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news027.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-16T07:00:00.000+09:00",
-      "tab": "AI_LATEST",
+      "id": "sha1:4278cddf8c583a9077a2802fce63b5b94a81cfc5",
+      "title": "Google for Education 「クラウド×生成AIで授業が変わる！教科の本質に迫るセミナー3days」を2/25-27にオンラインで開催 - 教育家庭新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tM3Rqekl2bjZ3ZWlCd2lQaG1UMXlSb1dwRWhFUmtzTzRjSFBrMm5pengzMXZ3bnBIWWRPU2h3QWV5VTZ2VWNQUmN2azJuZ1RPS2lB?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-17T10:03:54.000+09:00",
+      "tab": "AI_EDU",
       "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
+        "活用事例"
       ],
-      "score": 14
-    },
-    {
-      "id": "sha1:47cc93a340a14bb79cd071220b5757d8b6f84f6d",
-      "title": "日立・阿部副社長に聞くフィジカルAIの展望　20兆円市場と「暗黙知の継承」",
-      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news019.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-16T07:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
-      ],
-      "score": 14
-    },
-    {
-      "id": "sha1:a6085ee7fed270cec190af22ddb56dcf60cfbf5f",
-      "title": "なぜAI学習は“続かない”のか？　「期待するけど学べていない」ビジネスパーソンの実態",
-      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news012.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-16T07:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
-      ],
-      "score": 14
-    },
-    {
-      "id": "sha1:d03eefc1ceaf876220214fa1b26176a15202df03",
-      "title": "日常の業務もClaudeで自動化する日がくる？　Anthropicが新機能「Cowork」を発表",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2601/16/news017.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-16T05:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)",
-        "新機能"
-      ],
-      "score": 14
-    },
-    {
-      "id": "sha1:bed14bacfd2186b552cd1ceb552f5331e02ad3e7",
-      "title": "新語は“Google超え”――Microsoftの「Copilot Keyboard」は、正常進化したAI日本語入力だった",
-      "url": "https://www.itmedia.co.jp/news/articles/2601/15/news131.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-15T18:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
-      ],
-      "score": 14
-    },
-    {
-      "id": "sha1:e29831ea34141e54483e020a190f40ea1c267203",
-      "title": "Google日本法人、侍ジャパン公式パートナーに　「Gemini」を通じて支援",
-      "url": "https://www.itmedia.co.jp/aiplus/articles/2601/15/news126.html",
-      "source": "ITmedia AI+",
-      "publishedAt": "2026-01-15T16:48:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ITmedia",
-        "AI+",
-        "生成AI(最新)"
-      ],
-      "score": 14
+      "score": 12
     },
     {
       "id": "sha1:baaf14679352387d6b9f27eedb65abf883c532fe",
@@ -1212,6 +1141,101 @@
       "score": 12
     },
     {
+      "id": "sha1:a27e1befd1511c530e28c242b0759a020b5dacb6",
+      "title": "みんがく、教育プラットフォーム「スクールAI」で中学校向けおすすめアプリ第5弾を公開 - ICT教育ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KVllFcU5SdHNnYlBnWjQyWGpnSTNfY1lwMkJ2MVZ3d203aTVtT1JudU5hWE9saEFxemxHLVZlNUtoSS1XUG9hdmdfV1hvS3JVOU1EcA?oc=5",
+      "source": "Google News: ICT教育 学校",
+      "publishedAt": "2026-01-16T08:57:13.000+09:00",
+      "tab": "ICT",
+      "tags": [
+        "ICT教育"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:9a331ff70bfc648c382ae5b592af3dc9186ac315",
+      "title": "「管理職罰ゲーム化」を防ぐ？　AI活用できるマネジャーと活用できないマネジャーの違い",
+      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news027.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-16T07:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:47cc93a340a14bb79cd071220b5757d8b6f84f6d",
+      "title": "日立・阿部副社長に聞くフィジカルAIの展望　20兆円市場と「暗黙知の継承」",
+      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news019.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-16T07:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:a6085ee7fed270cec190af22ddb56dcf60cfbf5f",
+      "title": "なぜAI学習は“続かない”のか？　「期待するけど学べていない」ビジネスパーソンの実態",
+      "url": "https://www.itmedia.co.jp/business/articles/2601/16/news012.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-16T07:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:d03eefc1ceaf876220214fa1b26176a15202df03",
+      "title": "日常の業務もClaudeで自動化する日がくる？　Anthropicが新機能「Cowork」を発表",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2601/16/news017.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-16T05:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)",
+        "新機能"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:bed14bacfd2186b552cd1ceb552f5331e02ad3e7",
+      "title": "新語は“Google超え”――Microsoftの「Copilot Keyboard」は、正常進化したAI日本語入力だった",
+      "url": "https://www.itmedia.co.jp/news/articles/2601/15/news131.html",
+      "source": "ITmedia AI+",
+      "publishedAt": "2026-01-15T18:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ITmedia",
+        "AI+",
+        "生成AI(最新)"
+      ],
+      "score": 12
+    },
+    {
+      "id": "sha1:8b0d589286d4127a18f97145b725835f5c8cb6d8",
+      "title": "Geminiがあなた専用AIに！Personal Intelligenceの衝撃 - tech-noisy.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mWlY2ZVlwM3lyQXJfVkhWQnpib3VFNndudWZGNDhhUVR6T3FhM3Y3Yzc2b29YRjctekFocWozVlZWRXlGVjNqYWtDalVLNkwtSGcyTEpKOXE2VXk1YlpKaGZzeGFxTFpCbEZSTmg5RF8?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-19T07:05:41.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能"
+      ],
+      "score": 10
+    },
+    {
       "id": "sha1:d2a189844e537c4f1469a8fe5a0059b135df788b",
       "title": "教育AI活用協会、小学生向け「生成AIリテラシー」動画教材を公開〜生成AIの使い方を5本の短編動画で体系的に学習 - 教育家庭新聞社",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03bTV2cUpla1FRZUhrYmpiNTZKMW1VeVFkaWdSb2hCWXlITGg2N05oRUF5UnNRSnV3Ty1NMEVFVmJpcUVpcFRjY2xiV0lHR2FIS1JR?oc=5",
@@ -1223,7 +1247,7 @@
         "著作権",
         "個人情報"
       ],
-      "score": 12
+      "score": 10
     },
     {
       "id": "sha1:622ec1d48da434a6068212544fc3260e76effcd6",
@@ -1236,7 +1260,7 @@
         "活用事例",
         "著作権"
       ],
-      "score": 12
+      "score": 10
     },
     {
       "id": "sha1:8113d284eee3c26081349c7f77340da485224db0",
@@ -1248,7 +1272,7 @@
       "tags": [
         "活用事例"
       ],
-      "score": 12
+      "score": 10
     },
     {
       "id": "sha1:8ec509333691b8913b2c86f63cfb030b4f74d23a",
@@ -1258,10 +1282,9 @@
       "publishedAt": "2026-01-15T10:21:23.000+09:00",
       "tab": "AI_EDU",
       "tags": [
-        "活用事例",
-        "個人情報"
+        "活用事例"
       ],
-      "score": 12
+      "score": 10
     },
     {
       "id": "sha1:3b9c9fe6ff61a54369294aae40fd4ef20398591e",
@@ -1273,66 +1296,17 @@
       "tags": [
         "ICT教育"
       ],
-      "score": 12
-    },
-    {
-      "id": "sha1:1966fd1ed658ad79377d741dc144304239bf1c5a",
-      "title": "「ChatGPTとの会話」が外から丸見えに？悪質拡張機能が暴く生成AI時代の情報漏洩リスク - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPZXkyaUVhdVI5S05CdjhvbUd1QmdVS3NGV3VUSXc0UXpHQThDakJWVXhYTGxwUUZONnVFbG9reHViODMwRUxqX0czS2t2RW1icnFMMjZVdXllMWszakZKaDRYdkZBRC1POUoycy1uZVhkdHpKem9mZWFrcw?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-18T06:16:28.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能",
-        "新モデル"
-      ],
       "score": 10
     },
     {
-      "id": "sha1:2d908ae45bc124d82c1fd326bcf7f872abb4ca99",
-      "title": "生成AI低価格プラン「チャットGPT Go」提供拡大へ…月額約1260円で無料プランより利用回数などが拡大 広告テストも開始へ - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNSDE0V2NPUTZtd3RsaDRYWDc3Wk10Y0tJZy1lSjJTRXNOcEFCemxzNmJ6SUpHZ2xXRzdZa0ozWFFRZ295VGM3d2NUaDJrLVd2SkxCOXBjUENUOFExc2ZJWmR0YXgtdlZZN0JYM21kamxVWTVBb2lacnU1RQ?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-17T11:43:00.000+09:00",
-      "tab": "AI_LATEST",
+      "id": "sha1:6e70ef7af73c41426facda61316ba5859311f008",
+      "title": "千葉大学、1万3千人調査で見えた「AI格差」 生成AIを使う人・使わない人の違い - ICT教育ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RMzlDMUVackhUQVZtclhhV2VfVWw4eTZoS1BBblVtTHhQek82UWJJZW1rU3pybS1HYS1aMS1pQWgtZ1U0NHpVc0hkS0R3WEVzQlE?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T08:06:43.000+09:00",
+      "tab": "ICT",
       "tags": [
-        "新機能"
-      ],
-      "score": 10
-    },
-    {
-      "id": "sha1:452fa394e28dc8eb92c5f0ce6cb135e9c957e9a8",
-      "title": "「チャットGPT」へ広告導入 無料利用者らにオープンAI - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Cdnl3QkNTdzkyREFtNVdvWHV4ZWVxT3lCazV2VURZY2hzRGlJcG9yRjlqZlhPd09tQWk2NHl0cFRYU1JOWktkMEhndzVJSFlqMm0waGJFeFBLRFVMOUwydE14ZjY1UjVxVGpnWG5qUFozcVBtV3pwc3Z0WQ?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-17T10:38:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 10
-    },
-    {
-      "id": "sha1:8b61d23e8d3544b506e8390f46cc4342de949b58",
-      "title": "AIエージェントは作るべきか、買うべきか？ その選択が思う以上に重要な理由 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRUphN0wwUGh6NDlrNUJIUVpJT3pmQlg2QTh0ajQ4T1dUTmpteGRCdWhxNHpBdHQ5Yjc1Qi1jaDROTkVLaHBBZzF2QnhsbkpiQ0R6cHB6MEM1LU1WbHJvb1BpekRjb1lSYlpuY3VmQXQzeG5rMjlGbERlSVhPNWROSk5FbmViRTYw?oc=5",
-      "source": "Google News: AI エージェント ツール",
-      "publishedAt": "2026-01-17T10:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "AIツール"
-      ],
-      "score": 10
-    },
-    {
-      "id": "sha1:71de711ed354f4846885bd7dc2ed62a9ea6fa5d2",
-      "title": "大阪工業大学、情報科学部の1年生を対象に生成AI時代のプログラミング教育を開始 - AIsmiley",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43RDJvOTNQLVIyZlZrZFpHQl8tald1RW1ONFhsR21uX2MxQVlhVHY5RG9CQTRYTXdnbWk1VjhTczlFSjJrbGRnRThBdklpRUJzM0JBaHRXeFdLRzhhMHVHTkJB?oc=5",
-      "source": "Google News: 情報I プログラミング 授業",
-      "publishedAt": "2026-01-15T18:23:49.000+09:00",
-      "tab": "INFO1",
-      "tags": [
-        "プログラミング"
+        "ICT教育"
       ],
       "score": 10
     },
@@ -1382,15 +1356,14 @@
       "tab": "AI_EDU",
       "tags": [
         "活用事例",
-        "著作権",
-        "個人情報"
+        "著作権"
       ],
       "score": 10
     },
     {
-      "id": "sha1:ad22dc826fff069ed1b33cc68828702352f46e5e",
-      "title": "小学生向け「生成AIリテラシー」無料動画教材を公開、AIUEO - こどもとIT",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxUllpVm56dVNvVWU1Z3lSQ1hoR1RoVUZYXzlIbmJRQmc2NkEtbURXVXBEemtvbTR0ci1PaHltb1VHckRicHlDV1VKc3ZHNUI5ZDFxd3ZrLTc3cXZPMk9vMFBJTF8?oc=5",
+      "id": "sha1:047de38a74689072153aa67d8694629b4d64640d",
+      "title": "小学生向け「生成AIリテラシー」無料動画教材を公開、AIUEO（こどもとIT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tRUtCQkJRdGtYYWZMdzU3a2tnSUVzeUV6bHYyOFhBSE5fVXk4WGFCdkJaVmZjMmRXd2kzdHVsU0VYdHltRk1Yc0k0cm40dkhHNWQ0Z0FaaGQ0MWVUTGhjVkJ5RzhqSS0wdmZzUk0welNpQUtqTUhJdHlfaHhrczg?oc=5",
       "source": "Google News: 教育 生成AI 活用",
       "publishedAt": "2026-01-14T12:03:00.000+09:00",
       "tab": "AI_EDU",
@@ -1412,18 +1385,6 @@
       "score": 10
     },
     {
-      "id": "sha1:032dc3a60dccb52748f424784fa78f4100f6d0d9",
-      "title": "（一社）教育AI活用協会、小学生向け「生成AIリテラシー」動画教材を公開 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEalZwUFZXZF9BRjhEUDJfYVhKRVdqSE9OYnlLdlFLSUprV3p4MThGOXBaV2RpS1lVTmtINXVERzZnVE1vTXFfUG9MdmJJUFhrcURkM1p3Ukx5UExhWjFQUVdCcXE4Ump6QzBz?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-14T10:46:00.000+09:00",
-      "tab": "AI_EDU",
-      "tags": [
-        "活用事例"
-      ],
-      "score": 10
-    },
-    {
       "id": "sha1:464998117c64b465ce3abcef9a14408f54fe1455",
       "title": "（一社）教育AI活用協会、小学生向け「生成AIリテラシー」動画教材を公開 - PR TIMES",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XdjdJV3hvYWduUTNteW1tMXRXZnROUnlQUE90WUUzY1ZsODhlN1ZpWEpzbzhIb0t4QUNwWGh5R3M4Wk1aMkFvaVhEbWhYenpVTlhOZFlhSm5YcEItYnJtQVlGeFBGNWJLaVE?oc=5",
@@ -1437,26 +1398,15 @@
       "score": 10
     },
     {
-      "id": "sha1:753982ef74a6bbd7d6ea5f5862bfd2b2534464e1",
-      "title": "（一社）教育AI活用協会、小学生向け「生成AIリテラシー」動画教材を公開：マピオンニュースの注目トピック - Mapion",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oNTBZQm9yeG1NUDFwQ1FHMkNCaUMyV0c1Uk1NQXhUR3Fock5tMkFIeFZOQ2gyRnVUT0NWR2dpV3doU0RpMENGeWNmRkpEVmJxaXRaSUtnMk9iVEZOaEthazQ2SUZ2UzdGSWc?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
+      "id": "sha1:6081e3af2557a7df89d4593d8f72906ac61773f0",
+      "title": "（一社）教育AI活用協会、小学生向け「生成AIリテラシー」動画教材を公開 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4Q3I2cWM4QVF4Sy1DdWhnVi1FWkFQdWpyOFRNVWNYVDNRVGNuS01hZ1J6eEF1RnVEZURXZS14dWNBRmtuLTltRGtGV1NpT1I4Sm5VWnRaUDJHVEdQMmhPbFlYVDRwM1cyYjVBcDlfR3dUdk00VWk1eTFqTQ?oc=5",
+      "source": "Google News: 著作権 生成AI 教育",
       "publishedAt": "2026-01-14T10:00:00.000+09:00",
       "tab": "AI_EDU",
       "tags": [
-        "活用事例"
-      ],
-      "score": 10
-    },
-    {
-      "id": "sha1:301956c0b254c68149c2a9a79a0fa3b92614798a",
-      "title": "GIGA端末更新 国の方針に基づく事業者への処分委託は4割以下に留まる =児童生徒のデータプライバシー協会調べ - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kZ2RFYWtnWThVQ1lDcnVPWV8tNU9FUndTU01KeFV0bU0zR0ViLXQ5dHMxZzEycXBXSHVvcW4xRno3dS1jTm01R1R3OUE5RFRiZmRRaklyR2FDWWVSc19Fck0ySQ?oc=5",
-      "source": "Google News: GIGAスクール 端末 更新",
-      "publishedAt": "2026-01-13T08:12:36.000+09:00",
-      "tab": "ICT",
-      "tags": [
-        "GIGA"
+        "活用事例",
+        "著作権"
       ],
       "score": 10
     },
@@ -1485,18 +1435,6 @@
       "score": 10
     },
     {
-      "id": "sha1:ef944bdd697def156aa79fa9ceb3929940afe141",
-      "title": "生成AI使った授業づくり学ぶ 板野で教員研修会 - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOTzB1R2pCcTliQWREbGN2RW1sT295aDNsN3JoZjdKX29Nc096NmVXa041ZUpaeWNWak9ObXJfZ0RRVFZvN1djdEFoeGpEaFpBSFA5Z0xuVGFzeWcxMElrMFRfbjdZMU5xNGx0MlVCMU9pRmdKcEplSTFCcjNQemdnWUl3aUFpZjhBaldNVU53dGo0STN4UjZiZUI2OVJHYmNvRS11bGFydUVXaXhpTndURTl2Q1dVOXRSd3QwalhtWWlhdUNhNTBldk91ekhDeFl2S21WYlR4VW1ZSFBMLVNqTkZ0UWVhLVVNLTlQUXMySnMwUTBtWm1WS3RYMDhUb3JEb05HR3hLMXlNUTd5c1hoR19FcTRkRWRuVEI2ZEdSY2ZLMmpCTEgyY09wX2FpWFVUbjMycEQ5Z1FLUjY4VUQ5VHZVdGZGbHd3UV84M2l0aTg4QUR2?oc=5",
-      "source": "Google News: 生成AI 教員 研修",
-      "publishedAt": "2026-01-12T16:38:44.000+09:00",
-      "tab": "AI_EDU",
-      "tags": [
-        "研修"
-      ],
-      "score": 10
-    },
-    {
       "id": "sha1:87b562c8d0a91b97ce6cec9a224cfb7b2c606563",
       "title": "生成AI使った授業づくり学ぶ 板野で教員研修会 - 47NEWS",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PX1I0U3NrOTZ3QTd2Q05CVFRuMFNXVmZZeDdNcjZSM2ZZTHhweFN5VW16M1lEY19fejFjTVR4WUdfTFBiTzNSMHZZbw?oc=5",
@@ -1516,34 +1454,106 @@
       "publishedAt": "2026-01-12T12:02:49.000+09:00",
       "tab": "AI_EDU",
       "tags": [
-        "活用事例",
-        "著作権"
+        "活用事例"
       ],
       "score": 10
     },
     {
-      "id": "sha1:b9c3f7a37d6cd4f3557c5b1e5f3c3addb3ad6cc5",
-      "title": "生成AI使った授業づくり学ぶ 板野で教員研修会 - 徳島新聞デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82Z3NfeWtmMzdqRmZCMUVQSmNtd0ZjMWN3UDhrZHpxcHpxMzZia0NHNGYzUER6TDMwNzExZXpNNXpPTTQ0YkdmM2JYQjVtaUNCbTd3YXR3?oc=5",
-      "source": "Google News: 生成AI 教員 研修",
-      "publishedAt": "2026-01-12T05:00:00.000+09:00",
-      "tab": "AI_EDU",
-      "tags": [
-        "研修"
-      ],
-      "score": 10
-    },
-    {
-      "id": "sha1:0415f519174691a5be630e4f02e9a56c1d7d19bd",
-      "title": "さまざまな要因で利用格差が存在 千葉大が生成AIに関する大規模調査 (2026年1月17日) - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FUnJKRENVdEpLaGoyWXJaR3lrWjY5MnBaNm52OXo0VS1vSU0zd0pyMFhWeHR2OWU3Tmtqd0NPVDBlZkJzbkVEeFM2NmhvRXMwRHZRLVpFYllMamNDQ084?oc=5",
+      "id": "sha1:3e9dce75a139b179f3814052cb6450ecd0931a3b",
+      "title": "小学向け生成AIリテラシー動画、公立校の木材利用79.2%…教育業界ニュースまとめ読み - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAySnRjR05vaExNLVFTQ0NLZXJTd3FFN1dIV194clFHbHlXSnZvMXp1cE41Uk9WVGIxa2RzQU9WaWNOMV9Nc3ZSSFdTendxQVJ2VUZIYlo5QnFqSFA1TzlJUG1uQm1GUQ?oc=5",
       "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-17T12:00:00.000+09:00",
+      "publishedAt": "2026-01-19T05:55:03.000+09:00",
       "tab": "AI_EDU",
       "tags": [
         "活用事例"
       ],
       "score": 9
+    },
+    {
+      "id": "sha1:47eca6eeccd51a32ed3e0363504d9239aa412a0c",
+      "title": "スクールAI、思考を深める学びを支える中学校向け生成AIアプリ群を公開〜おすすめアプリ第5弾 - 教育家庭新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95OFJBbzVGQ1RGcDU0eFBIZHVTcUhVeExpRGNULVJEdXo5N1RwOXlhaUgySU9QU2JvNXVMYkNpcDc1bC1iWVZ3Wk1INHJQQ3VmbzFr?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-18T10:04:28.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 9
+    },
+    {
+      "id": "sha1:5e84b911c471400fc4b1dec6dd9c5567fa48788c",
+      "title": "保護者の3人に1人が生成AI利用による子供の思考力の低下を懸念〜LUXGO調査 - 教育家庭新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yc2dTWmlhUi1na19mVG83TXFNcFo0UGkwV2NTVWxXOEZIa29tSk5XejR0WUR0dmQ1MUFuU3dHcFJabzh6S0ZsTXp5WHlhX0l6M0dB?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-18T10:04:28.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 9
+    },
+    {
+      "id": "sha1:27c3fe8a39a5bc782d45679ff92ad9651747a4b6",
+      "title": "教育現場で“本当に使える”生成AIとデータ活用を考える――教育関係者向けオンライン勉強会を2/8に開催〜教育AI活用協会 - 教育家庭新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKUmp2VUdMVzFGYkpkWS1vMVFuLTNfOUl3cmN5YjBzYjFWMGIzbHZXdVdBS1BMeENEQ3RoRDFNeFBhamRBRnNKR2VFWGNLZUZxRlFn?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-18T10:02:17.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 9
+    },
+    {
+      "id": "sha1:1966fd1ed658ad79377d741dc144304239bf1c5a",
+      "title": "「ChatGPTとの会話」が外から丸見えに？悪質拡張機能が暴く生成AI時代の情報漏洩リスク - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPZXkyaUVhdVI5S05CdjhvbUd1QmdVS3NGV3VUSXc0UXpHQThDakJWVXhYTGxwUUZONnVFbG9reHViODMwRUxqX0czS2t2RW1icnFMMjZVdXllMWszakZKaDRYdkZBRC1POUoycy1uZVhkdHpKem9mZWFrcw?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-18T06:08:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能",
+        "新モデル"
+      ],
+      "score": 8
+    },
+    {
+      "id": "sha1:2d908ae45bc124d82c1fd326bcf7f872abb4ca99",
+      "title": "生成AI低価格プラン「チャットGPT Go」提供拡大へ…月額約1260円で無料プランより利用回数などが拡大 広告テストも開始へ - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNSDE0V2NPUTZtd3RsaDRYWDc3Wk10Y0tJZy1lSjJTRXNOcEFCemxzNmJ6SUpHZ2xXRzdZa0ozWFFRZ295VGM3d2NUaDJrLVd2SkxCOXBjUENUOFExc2ZJWmR0YXgtdlZZN0JYM21kamxVWTVBb2lacnU1RQ?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-17T11:43:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能"
+      ],
+      "score": 8
+    },
+    {
+      "id": "sha1:452fa394e28dc8eb92c5f0ce6cb135e9c957e9a8",
+      "title": "「チャットGPT」へ広告導入 無料利用者らにオープンAI - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Cdnl3QkNTdzkyREFtNVdvWHV4ZWVxT3lCazV2VURZY2hzRGlJcG9yRjlqZlhPd09tQWk2NHl0cFRYU1JOWktkMEhndzVJSFlqMm0waGJFeFBLRFVMOUwydE14ZjY1UjVxVGpnWG5qUFozcVBtV3pwc3Z0WQ?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-17T10:38:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能"
+      ],
+      "score": 8
+    },
+    {
+      "id": "sha1:8b61d23e8d3544b506e8390f46cc4342de949b58",
+      "title": "AIエージェントは作るべきか、買うべきか？ その選択が思う以上に重要な理由 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRUphN0wwUGh6NDlrNUJIUVpJT3pmQlg2QTh0ajQ4T1dUTmpteGRCdWhxNHpBdHQ5Yjc1Qi1jaDROTkVLaHBBZzF2QnhsbkpiQ0R6cHB6MEM1LU1WbHJvb1BpekRjb1lSYlpuY3VmQXQzeG5rMjlGbERlSVhPNWROSk5FbmViRTYw?oc=5",
+      "source": "Google News: AI エージェント ツール",
+      "publishedAt": "2026-01-17T10:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "AIツール"
+      ],
+      "score": 8
     },
     {
       "id": "sha1:ae03f1effbf02bc7db52c8db8c969f200da885ac",
@@ -1554,6 +1564,18 @@
       "tab": "AI_LATEST",
       "tags": [
         "AIツール"
+      ],
+      "score": 8
+    },
+    {
+      "id": "sha1:ac77c1b76566f8460591986a8693ca7ccce029ad",
+      "title": "Raspberry Piが生成AI対応の「AI HAT+ 2」発売、130ドルでローカルLLMを実行可能に - FabScene",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDBVT3BwOEk3VWtVbk03UXJidDFGTnl6SnI3cmRCTzhNLTNJR1dLRHpfbEhQdDVZcE9tNDMtaEtxVlM1Q2lXVDlYRG9yQ2tNUzB5bFltRXF2bWlJaFVYMmlfenZKeWxvVTl4U0k3THJHbURaLUxOZlA4ejJjYl96dVRvbGNSODFrbHJRTtIBkgFBVV95cUxQRDRFUHZGZnlWVVFZUDc4ZmEwWXJsYnFZb2FFU0lQc3dMY1U3R2daV1lZZmVtYldQbzhpczh0Mklwdl84aENDR0IzNjVsLXUwRzJZd082QzRUalI1U2cxdHVSXzRpWDNqazNlcEZ1cFBNR0tJTG9QZzFUcTdqTHNhQ0NOcjlmSEVTelZMQWcxUFFOUQ?oc=5",
+      "source": "Google News: LLM 新モデル",
+      "publishedAt": "2026-01-16T17:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新モデル"
       ],
       "score": 8
     },
@@ -1667,157 +1689,23 @@
       "score": 8
     },
     {
-      "id": "sha1:8928e79df5e4ee4617cdbc82c99a0cb3860ecd03",
-      "title": "2026年のCopilotは凄いぞ…「エージェント前提」で日常業務が激変、次の新常識とは？ - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93OWo3blZ3Q2RsNjJZSi01WmEwRm42d18yVHNnOEJfUzJVNkxxdzBYMF9XbHFLR3R0ODdLU2RJNWxzYUFDcFgzNkhJLTB1cnJrVFFj?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-16T06:10:00.000+09:00",
-      "tab": "AI_LATEST",
+      "id": "sha1:71de711ed354f4846885bd7dc2ed62a9ea6fa5d2",
+      "title": "大阪工業大学、情報科学部の1年生を対象に生成AI時代のプログラミング教育を開始 - AIsmiley",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43RDJvOTNQLVIyZlZrZFpHQl8tald1RW1ONFhsR21uX2MxQVlhVHY5RG9CQTRYTXdnbWk1VjhTczlFSjJrbGRnRThBdklpRUJzM0JBaHRXeFdLRzhhMHVHTkJB?oc=5",
+      "source": "Google News: 情報I プログラミング 授業",
+      "publishedAt": "2026-01-15T18:23:49.000+09:00",
+      "tab": "INFO1",
       "tags": [
-        "新機能",
-        "ワークフロー"
+        "プログラミング"
       ],
       "score": 8
     },
     {
-      "id": "sha1:098caf01ceb7b7c662027f78692cf3b5c4b8fd0a",
-      "title": "AnthropicのClaude、自らのAIエージェントをわずか14日で開発。「AI自己進化サイクル」突入か？（ビジネス＋IT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80bXhVeHNXbHJNaGcyT0F3VG5CNURJUG9LMzFTTncxcE5PemJtMnJZeGVEYnhVY0pFbVQ5VHhXbFNRczVPX2ZJQ3VVYjhyR2NpQks3RzhzQXVtZnZRdVdUWUM2bE1ZWkVjMnJOZllReG90c3lNQmk2ZGdZT0xsLUU?oc=5",
-      "source": "Google News: AI エージェント ツール",
-      "publishedAt": "2026-01-15T20:00:06.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "AIツール"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:121e16d74c98b84516f7e53b9ece2ba31040107f",
-      "title": "AIエージェントアプリケーションの構築を支援するオープンモデルを発表：人工知能ニュース - MONOist",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fbGxUMFNfNEJpcThRMm1FYXo0Tld0Z0tMVE92cUM1MTliRG5BdzZYeEc0cV80NmU5Y2xRMFM2aVQ1YXZPUnl6ZU82bVJJM01UOFU1bzBaS2pIc3g3TGFJVzEtdHg4RFZVRG9RLWZWTQ?oc=5",
-      "source": "Google News: AI エージェント ツール",
-      "publishedAt": "2026-01-15T14:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新モデル",
-        "AIツール"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:60ff5cf617286f307582db8c38f17ff106f57e7e",
-      "title": "【2026年最新版】生成AIおすすめ16選を目的別に徹底比較！ - 起業の「わからない」を「できる」に - sogyotecho.jp",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iaHMyQWxGNnZ6TmZSa1dxQXlzZVFPQ3FaVGdMR2VOcnJZN0VuRWZvN1dfc3Z5UUE2Sk1wcnRoWEZwM09IWndXYU00OHNJTFR1TWxYalNGSQ?oc=5",
-      "source": "Google News: AIツール 新サービス",
-      "publishedAt": "2026-01-15T13:07:06.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "AIツール"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:be6e944eb83d60c715f491b01194fdce9cc397fe",
-      "title": "グーグル、Gmailや写真をGeminiに読ませて“個人用”にする新機能 - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRTXlMSUFVRHdzZ2dOaWhtdjdfalI1bXVZeDZrUXJjUHNWeUR2ZG01RzVJOVJXRmFmY2JpMFBXNXBHTmdZeEhuV0pTQ1ZndHhjb1lHaA?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T13:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:84306d171b9df9b4e079d00a7d621397310bcd01",
-      "title": "Google、動画生成AI「Veo 3.1」を強化、YouTube ショートなど縦型動画にも対応（ビジネス＋IT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZ0JjeVpQSkJnT2M2LW05QUVTdmxvTGN0VGUxSU85aTFVWU5JZ2xkSG9VS1Z5QkJhQjhIZXZSSVBDMnhGcU9PNGF0d2FPdFJ3M29MZzNPUXpNbXBvSnd6MUxBMGNQODd0TWZNYUhJdmVxbjhBY0tXamFLSlVwN1E?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T12:40:07.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:a6f1090bf0259b5eaf5695bdca01ee8044a080be",
-      "title": "生成AIで映画は1人で作れる。Creative.Edgeが辿り着いた「60点主義」の仕事術（ライフハッカー・ジャパン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FS3U3aDlFNVpqeTk0Ym85dEV2clVKazJlb21TOWZSQ1NUdVlsREh3dk5HaUwtaXNBb3YwNWxUcGk0ZUhHXzN3b3owbGgtVnlaNXhqRE11RGFVV3h1Z01HTE9DemNPWm9ZdGljY1U5NVVpaXBhX1V1VnBjalplVlU?oc=5",
-      "source": "Google News: 生成AI 仕事術",
-      "publishedAt": "2026-01-15T12:11:01.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ワークフロー"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:5ee099b946b79f6bd84476e8cca88d81a7e6e7ee",
-      "title": "AI生成音楽を全面禁止 Bandcampが「人のつながり」重視の新指針を発表 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3Y3BUUWI2ckNfQ0tPMFNRYzk0RFVNa2VGWS1TRFlpT0RMVG1KaGg5amVOSmlqVUNscVhNSFh1QkZfZnp4Zm1JVkFYN1dWMThSQU9qS3ZZUGZ6NUMweVk1X0dHNHNLTXhYb1hldV9qUktjeFhUSzNWMDBQMA?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T11:37:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:c4c39dc565dc55dd20093615ac76c54b4b41e09d",
-      "title": "Bill One、請求書業務に「なくせる」をつくるAI新機能を発表 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVSWNiZEpROW13Mko4S3VVLWJoS0N4b2RnOTVKTGt4REV4aU44YXFYNnBkbHJQV3JMdTlweTBaMFU5bmYxX2ktZmxNNzFkWmpsY0ZKWlkwRGg4NDAwZmdfTm1PLURlaWhjc3c?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T11:30:01.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:3b2c6e9bb42a182d42277a974ffef60367628013",
-      "title": "アンソロピック、新AIツール「Claude Cowork」の大部分が、2週間未満でAIによって構築されたと公表 - Business Insider Japan",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0FFSWFyMW9JVFF6dFNLNlpTWTZDdEd5bWJNQld6TndfVndHNnk0WWp3THF2Q29vaTNWMVFrR0FxbTVnQWRIcVZqejN6dXR0Z18xR0xXSGJTNjMtaVBVbWhldmk4RGZUR251cktMSE5zYUxCYk04Ykx2aVpTN3pBN2MtdkVZVDl3eHB1WEJyZHJuZw?oc=5",
-      "source": "Google News: AI エージェント ツール",
-      "publishedAt": "2026-01-15T11:05:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "AIツール"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:8f225a19037e799a6ead3bce07511b886fd1edeb",
-      "title": "アドドットコム、バナー制作を完全自動化 商品URLだけでAIが生成 - ニフティニュース",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fcGt3MDBLdE4taEJIWHJwSUhLOUg4d1VaRjV6X2VMNE1xNzR1dlFUcGRHV2FNc1RhcFJaSjlaYlFLb2x3aW5zbk8xUTBsU3gxSjQwY2JuNXlyNVEtbzVCd29CbE9oQndNdU55c2wwWGFPQQ?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T10:30:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:54aa6a32c72b2cfd6aebaf48da8b4ca3a5700f76",
-      "title": "Google Geminiに新機能「パーソナル・インテリジェンス」、Gmailやフォトを横断活用 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45QXhGVElybTgzOExnb25QSG1nRl9ORmNveW9RQl8tNDFsaXNBRHdycF9GUjZDZnVidEhXeDlFVmFjdExUeW92U2pHTmxaOEtlVkMzblYyY3pLNFVWNHpRSVdqeDczd3RUVWUxZEFqdEYtNVJRZ1dlSU1n?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-15T07:18:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 8
-    },
-    {
-      "id": "sha1:6030ff0553508fd827bdd61476a13ab1123dd60a",
-      "title": "大学入学共通テスト 2日目は理科・数学・情報の試験 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzLTFzaUdIMHM0bWtiQkRXZG1wNVZQSU1vWHJDeG1LWHVsbUhnVjJpbkExdHduR2lETzM4cTQ1dDMzX0ZaSzR0U0tCMVFZTXd6cUdJQWp6aVVDMHQzV1Yw?oc=5",
+      "id": "sha1:fa790c52f0872137012f12d8b78e9f45ce687b07",
+      "title": "共通テスト受験生を任意聴取 「問題を撮影して後輩に送った」 - 神戸新聞",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTDV4NGR1TTViOXZ2NzlSa203R3pZcXFXV01PNG83X2dxNUk5ME93aDBHUGVMOHBFMERpWkVhNzV3VC1fQXFFWnd3d290VFM1WUVIWUJ3R1hncy1DdFRiVGMwWFlOaEpGNzdYQ3I2aGtkZ2F4?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-18T06:20:59.000+09:00",
+      "publishedAt": "2026-01-18T23:52:00.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1825,11 +1713,11 @@
       "score": 7
     },
     {
-      "id": "sha1:df87fe3b1f29e622da69322bc0cf94209f914168",
-      "title": "大学入学共通テスト 群馬県内7736人挑む きょう18日は「数学」など3教科 - 上毛新聞電子版",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QWG4yMERCcTdIOHBFalRYSGZNdFRkaXVmNFRHZTluNUNBWHUzR1A2X1ZvNWlJcnJaM2hsekNhcThTdDd0djFac3l2VzBQZWYwUlIxNEFpLS0?oc=5",
+      "id": "sha1:9bbe88d3c2c60ad859d677fa7b4f19e08d5f97c3",
+      "title": "共通テストでスマホ撮影200枚、警察に相談 7人の不正行為を確認 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xT2ZyaEloRFpYU25Idk01WS1ueFZGQ19yNTFsTi14R2dGd1FISTVSeWNGWi1ubl85QmNpd204WU5EUUxuOVRXYWplSTU4ZWpKdzFhTlpaSEZqX0FmUERITUdPY3J1ZG8?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-18T06:00:00.000+09:00",
+      "publishedAt": "2026-01-18T23:51:43.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1837,11 +1725,11 @@
       "score": 7
     },
     {
-      "id": "sha1:b8bfb926d084d8eae3567ad7e3734f7725d840a8",
-      "title": "共通テスト2日目は「理科」「数学」「情報」 今回から出願手続き原則オンライン化も初日には大きなトラブルなし - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAydC1SZXBicjhtNk1HOEFObWFXNUVWdENRY191X2FBb3JfTHY0R3hMakpHTWtDbnR0ektUa2U4OVdXYkc3SjN2UndTSzBoWnJEblUxSmJDSQ?oc=5",
+      "id": "sha1:c44a243ce41575eb635a52b99b033437e6741a10",
+      "title": "共通テスト、本試験の全日程終了 不正で7人失格、スマホ使用3人（共同通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FU0VJdVVxc19kYXFXc0l3MF8ydExQcUU0dVhuRk9ZbnlHakV0b1dyWE9RX1M1UWdLZjEweWpRZFlOZEMxUF8zYWJ0VF9oLTN0dlBJRFhPaFdTX3VQQ0JvMURBczlEZFFWTm9YcGgtWlVYSzVYRmhYMzRYT3lfeVE?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-18T00:31:25.000+09:00",
+      "publishedAt": "2026-01-18T23:31:18.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1849,11 +1737,11 @@
       "score": 7
     },
     {
-      "id": "sha1:056d1e6f75577ced8cd248d8ccca489a8e994c7a",
-      "title": "共通テスト2日目は「理科」「数学」「情報」 今回から出願手続き原則オンライン化も初日には大きなトラブルなし - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnVkZja0dTbERxRjh2SHF0SzIxWDg1RDFITmJXNXJuY180QjZBaTdmUHlCNktSSjZRWDdSb2VLdFdRTktJcHFiQXVUeGVKbTQ0Z05ObjRHMGplN2J1NW9KbjZGTFdfNy10RHV3b2U1M2F6bEUwNnQtdW5HbkxFeTQ?oc=5",
+      "id": "sha1:bf55f4bb28ed15ecefaa29450b8ede048316b04c",
+      "title": "【共通テスト2026】2日目 理科・数学・情報の難易度＜4予備校まとめ＞ - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13aXlzbExlbGxDRTZKa3hUWnEwQTV3ZzBYRFFtaTBjdnRHdkl2OFYxWEEyRHQ4YmRvNW5zSFZoWWtKR0NGZ1JfV1A4b3VVWFlZWGRSMTJTUUcwUmFD?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-18T00:29:44.000+09:00",
+      "publishedAt": "2026-01-18T23:23:02.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1861,11 +1749,11 @@
       "score": 7
     },
     {
-      "id": "sha1:5fbc98b271a100c266164a1f7f2ba3309853a5b7",
-      "title": "【共通テスト2026】（1日目1/17）英語リスニングの分析開始…情報を的確に処理する力が求められる - リセマム",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTEFPdEZvTzlsM3BGSmxSdVAwRmpQLTU2MVlDYkVla0FUbGlZRUFOazlyZ1NtUlI2TXdIWGh4cWhmcFVNeTlrZXRVVFVZWHlWa3ViZnZIeFlGN2Fj?oc=5",
+      "id": "sha1:0c84fc073a2ffea58ef31b0b8e331259c1a794ab",
+      "title": "【共通テスト2026】（2日目1/18）情報の難易度＜4予備校・速報＞（リセマム） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mTjhtNl9VektFekwxREIzTzFMTTNDRVZHQUFhdVNNb0ZBU2xCLUg0bzVkSHM2dHNVcjljVnpKby1xS0pYSXZJUjhVamE4b3J0N1pxaEdqWHlXX1FrcVctdDE5U01uSkQ3eGVEN3VRSFNNbFRROEJSZC1zODRnSW8?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T20:04:28.000+09:00",
+      "publishedAt": "2026-01-18T23:18:57.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1873,11 +1761,95 @@
       "score": 7
     },
     {
-      "id": "sha1:3549ad7c4893e083450964820359969070bd7399",
+      "id": "sha1:cb1302b688900268dc1691d4e6e4f4f814d3878d",
+      "title": "共通テスト6教科予想平均点 文系585点、理系600点 国語、情報Ⅰ、数Ⅰ・Aが難化か（高校生新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKMFgtZTNvSE50OFhJTVR3cHd0MHFFR3VJWFJueTY3YTM2LWtKUXRWT0VUX29CeVVCMXluTEY1TXF5XzhjVzBVQi1HRXdaM1hkNlNsWW1QX3V0NFBTSktja2ZnUTROMzBzY0N2N0hYYWNfT0oyc2c2NmNBUWVOaFk?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T23:08:54.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:294caa54e07ec1515904fe8fea856091bdedad73",
+      "title": "共通テストの2026年「情報Ⅰ」は「難化～やや難化・昨年並み」で分かれる～4予備校の難易度予想から #エキスパートトピ - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZzBIclNMZmF1VThoTmgwdVNtYTlhQ3RCOUNzdWN1LTVCdHI1THAyY3JQWjdQaGR4bUhXdGxudk1TellYZmF5eHk3SUhaZGJOTFJNZTZOWkVEM0c5TWthT1lSeDNiLThkN0EySGxFZGo0U1NsYVlCb3dtNVVqUEtqMHRnSTZyaWMy?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:58:16.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:5309b8a5700d842d6dc4278c07226889602935e5",
+      "title": "情報Ⅰ 代ゼミ問題分析 大学入学共通テスト - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmOUZETE51cWFKRXkxT2FJc0I2eWtLNklLYTNtVm8wdHZMUmNnS0xNdmQ1T09TTGM2NGZJNFc3M3RLbTQ0QTZfV2ZNanFZcnU4UFVNRjg4aXVOSVhyamZkaWJkdklRV3c?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:35:59.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:c6cf216a756da7c36e95a717d2c03163d55bdfb4",
+      "title": "大学共通テストが終了 「情報」2年目、受験生「難易度上がった」 2次試験へ「第二のエンジンかける」 - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1WTlVDUmF3aTkyUXpqMlZEWE9valY3Q2s1UUYxNU00SDBsaTY5bnZ6TnlnTnhaRWpGeUpWRTBqbzFnS2NYdWF3Y2NYZw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:26:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:cefa5b9fe8bdfec2dc78b97819021dbe7b1ed3ca",
+      "title": "共通テスト6教科予想平均点 文系585点、理系600点 国語、情報Ⅰ、数Ⅰ・Aが難化か - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qd01odWhJWFduQTZXbG1qSHVqc19lbjk1VWRLaE9IanBYN0x3YnhORjUwcFZ5bHA3UWY5cm5MVEZWc2lhUHpSZjBqcGt5bnJvQ3VDSWgxQXpqZ1l3?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:23:12.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:eff87977ee1046676afd8c08563453387e366fde",
+      "title": "情報Ⅰ「負担感じた受験生多かっただろう」2026年度共通テスト 河合塾分析（産経新聞） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01X1U1MEtNSENzTlljTjktMTl3MHQ5aUE2X0w0bndmNU5KemhPclpqb2hCUmFHUVhPUmZnS1hiZ1ZSdDVHSkVhQXg4TTh3ZUVZQmV5TVNHRzljNjhmOFF4UVYxRDQ3aUQ5Q21EdDBMR3EwMFFkSFhnNDhNX2F3N1E?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:19:36.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:965a31ae03049fda159b1b64686d136a7513bce2",
+      "title": "【共通テスト2026】予想平均点（1/18速報）文系6教科585点・理系6教科600点…データネット - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRXZMS1pWUHBreENXOE5XaVNLNUUyU1BPRkY2X1pkVm1CVkZqXzQ5amRtR3k1RDlDZ1BlYVZyMy0xZDlWTG54N3c5UldfeDNwYmVBbzdJblBPVk96?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T22:17:51.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:cf7d3c3e619cf788ada1a7bedb34e8d45b4f322c",
       "title": "2026年度（令和8年度）大学入学共通テスト 受験の注意・問題・回答速報・解説サイト情報（ベネッセ/駿台・東進・河合塾・朝日新聞・テックジム） - ICT教育ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wMWc2d3hKb3J1SVRzMWpHUW5DRDFiVE5zNXlGcXAtVERNYVJjS2VxbUVTbEliQkFkZVdnUThValFxLXRLYkNIT2F2ZnBHZlk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OS2FBemk3YWlxclhCRkd0WHNVX1U1SDJ3cWw1YWdDX2hwRVJUV0VzRGlFRnVuUndnZGcxNU1wTzdVbURfc25yQ180TlY4cHM?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T19:15:44.000+09:00",
+      "publishedAt": "2026-01-18T22:08:43.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1885,11 +1857,11 @@
       "score": 7
     },
     {
-      "id": "sha1:adb12885379a88e40573acb5b8f07dd319ee1cc8",
-      "title": "「大学入学共通テスト」高知県内4会場でも実施 1日目はトラブルの情報なし（テレビ高知） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nZFZNa1QtT1U1cGJHQ3gyS2tIWDk2NXBjNWQtM0xKM1d6d2VzZ2JHbGh0dnVVSjR5ZDNyeDZPOXF1RU84SWdFTWY2dFhhT3BMZHdxQmFmTXJfNF95LXh6MnhFZGZQN0FDemsxQzhodEtLODJUbVNRRUk3QnlMTlU?oc=5",
+      "id": "sha1:cd86d20c7ef60a607a9710fedd244ade10c725ba",
+      "title": "【共通テスト2026】情報の分析…東進・河合塾・データネット・代ゼミ速報まとめ - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rYk1YYVZ1bTM4dXkzSTJtdHBGMG5TbG90OU80TFZDZUVvc2RULTZvREVqOWdTeUZxSFk1ZENob285WkhQQmFwWEpoay1sb0ZCeGlWM0VTbWNiUlZX?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T18:22:14.000+09:00",
+      "publishedAt": "2026-01-18T21:47:46.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1897,11 +1869,11 @@
       "score": 7
     },
     {
-      "id": "sha1:ba9f9cd1781e629d794052e493866abd5fea61fa",
-      "title": "「大学入学共通テスト」高知県内4会場でも実施 1日目はトラブルの情報なし - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DN0RsWmFNNFczZkJrbHNTZmdBak5YVWhkRXAtY3U0b2ItNFpPM1hVOEFWMEVLV3hWbTMzRzZNT1BUVXZIOXFtNW5HOGh6dFVLTUVqNFZBclZIU0k?oc=5",
+      "id": "sha1:3157539aef7c7dce0d58487ab0325d915c443c55",
+      "title": "共通テスト「情報Ⅰ」2度目の今年はやや難化「時間が全く足りない」受験生苦戦 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fQWhJUWFWdkdLNUdqUHZtVlFMY0RfMzB6RW9ic0k3cGJwR216cjA4RUNmcWVjeFN4SnI4Q1RtZGpGOVVaeWx3Uk5QTkVlbGVIVGE5OHdNc3E1TFNu?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T18:15:00.000+09:00",
+      "publishedAt": "2026-01-18T21:41:07.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1909,11 +1881,11 @@
       "score": 7
     },
     {
-      "id": "sha1:5274c6d3118b816c9cae8fcf6837257904ef0be8",
-      "title": "2026年度 大学入学共通テスト（17、18日）正解を速報します - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HdHBjbTRGbm1ocnFXamFWeFpsNXhYZHpKMXZ2b0JJMGZHd2FhaVBIMW9hOXNxUGU5REVzN0EzNzhXUC1rN0dKS2dadW1OTDc4YW1GM2NibUtmQTJxc0Rua3MzZHdSX2UwbzVFQnp0Y3FTRU91Ync?oc=5",
-      "source": "Google News: 情報I 共通テスト 問題 解説",
-      "publishedAt": "2026-01-17T18:01:52.000+09:00",
+      "id": "sha1:c3adcac31dc727c9dcfe96bc1fc167a0ae5cf87a",
+      "title": "大学共通テストが終了 「情報」2年目、受験生「難易度上がった」 2次試験へ「第二のエンジンかける」 - 南日本新聞",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VTzVmejFkaEN3Uk9XZl9HY1FxNXp2QUl2V2REWC03aXBHNTBhR2VqeC16SmhMbXhaOWw3NWRZbHBCTUQ0NEhucnU2ejIwanF1dk5zRThaOTQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:26:00.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1921,11 +1893,11 @@
       "score": 7
     },
     {
-      "id": "sha1:b7564bab9b07175992d6143fb314774fce2e2fd9",
-      "title": "【黄砂情報】黄砂が「大学入学共通テスト」の実施日にかけて日本列島に飛来か 九州、四国、中国、近畿、北陸、東海、関東甲信、東北の一部地域に影響の可能性 黄砂はいつ、どこに？【気象庁黄砂シミュレーション/ 17日正午更新】 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZY2xuN1d5MGdyc0VCM1d0YXdGTkdkUGpvZmh4ZGVxYVI1M2gzVVhNcXc4YWVkYlY3aWJ1cWNORzRoN01sLWc1X2x3UXl3MnlhY2dZVDF6WmtBR1RRZmRPWkNWc3hmOVhVOGQxVXZnOWpDSkUwaFlxUXIzMA?oc=5",
+      "id": "sha1:ffed7ecc63bedfdfe9371088894085939c28765e",
+      "title": "大学共通テストが終了 「情報」2年目、受験生「難易度上がった」 2次試験へ「第二のエンジンかける」 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wWG9rZ3l2c0tXSWhHdmJ6a196bkVTTlhBSWpjR3lVWGtaSGZVYW5DN0VReVJpc3BLbDFJNUxzR293ZVhPbmpjRFFvU0paYnFULVEyTlNKWjZlNFBobGZpY0locXFhaHdfWXQwQ0RvVzdUQ2VybVdCN2hhMA?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T12:06:00.000+09:00",
+      "publishedAt": "2026-01-18T21:26:00.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1933,11 +1905,47 @@
       "score": 7
     },
     {
-      "id": "sha1:d952437b7a636777d14e2f46fdd0baf92b13de19",
-      "title": "大学入学共通テスト、今年から問題のSNS投稿禁止に これまでも「認めていたわけではない」 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxaExGUGNXc1dONXFfelZwcUVzYUdNWC1BbkRZb2JGUkN5WF9CSEZQYk1QcWZ5aC1IU3YtcGJfd1lQV19yd2Q5YzgydHlXcEhjUTYyMHVwa0NUdDQtMzh3QzdkcVJJNTduUS1mZw?oc=5",
+      "id": "sha1:c6299612a9f0906914f93dab90c1cb3fefd86625",
+      "title": "共通テスト2日目【情報Ⅰ】16進法による数値表現も - 徳島新聞デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5UGVLREZadW42dXNuM3paenhVNHhXbGh4TDM3QWNkSDBUdHNaYU8tOHF1Y01qRThzY2Z1M3RzOHJRaXZRZGpyZXcxWTBna0tPbWFLbDR3?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T11:40:00.000+09:00",
+      "publishedAt": "2026-01-18T21:20:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:e7720c53e6f772b749abe5772d3ddaa84f9f3bd1",
+      "title": "「急に難しく」なった共通テスト・情報Ⅰ 受験生「予想外だった」 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IeEpiQ3NxT3hwUEYyR21OcmV3WU1DQV9xS3Zsb0xaNjQ0UE1LejdDWkNnY3oxT2Q0aWVDQ0Mtck50TENTS3JlbzVYWjBuQURKOFpQUVhveXYzaW5yR2pXblJXWW1KV2s?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:15:10.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:82b79f009f292a1e5e539f6b75689bf802c7f020",
+      "title": "2日目の難易度は? 大学入学共通テスト、大手予備校による問題分析 - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ROTdhM1g0YTlmeFRYM19HcXEtZmZSLU13aTZMU2hVVjdSUk03UVJwamx0RUsxemdmcE9MbWFUWm5vdk1GaDducVhWa3J0UDQteUduWElfNGJGenI2bXY0a1UtaHRXbGdo?oc=5",
+      "source": "Google News: 情報I 共通テスト 出題",
+      "publishedAt": "2026-01-18T21:09:22.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:62d4f22a4e87ee4f106059b9889c1676e7ef6eb7",
+      "title": "【速報】大学入学共通テスト2026 情報Ⅰの問題・解答・分析一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PVkFDdU9ER3NHdThoUTdqMTBORl9hRmVzVWRRd1B6eFh5TXUtNDNwMXhZWmtIZHB1U2czNVNPalNCR3ZoSEpEQXl4U3RVNUk1VktGdnIxQkJNbzM5?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:03:54.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1949,7 +1957,7 @@
       "title": "大学入学共通テスト1日目終了 「ベルばら」も登場、問題解答を公表 - 朝日新聞",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wYUNlLVF0RXdPTlE3VkhRM2lGNlZ3LWJCNm96N3BUYVFCWTdldldnYW8tNFlrdUhKMk5DdlZ1WWdEcVBWS0R3N0t6UHdpb0l3UzlYY0JYWlMyM1owalppSjZ0NTlEZ2s?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T09:32:00.000+09:00",
+      "publishedAt": "2026-01-18T21:02:17.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1957,11 +1965,11 @@
       "score": 7
     },
     {
-      "id": "sha1:90621ead54f9aae6080b79f6c6083b74db63359d",
-      "title": "【黄砂情報】「黄砂」が日本列島に飛来か 17日・18日「大学入学共通テスト」の実施日にかけて広い範囲で飛来の予想 黄砂はいつ、どこに？ 屋外の洗濯物やアレルギー対策などに注意 黄砂シミュレーション【気象庁 17日午前8時更新】 | 岡山・香川のニュース | 天気 | RSK山陽放 - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91V0hxZDkzRDVEQjdoY1JjYnhLUV9oLVRMZ3dqQjRVd3RldGZqdS1EMkhBdnNWTEo0TEVTVG4zZ1ZWTTZFUm0xajdyVG4xQXFxdXRzQUQwdy1kMktQVm5zTWJjUEdpQUE?oc=5",
+      "id": "sha1:67c37a74d96f7c5ea82a7dd7ab53f3e99a1be20a",
+      "title": "【共通テスト2026】解答速報スタート、2日目（1/18）数学・理科・情報（リセマム） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnOElvbExfaU56bXNENnd3S3RFOHpXaFJrZnh1azgyMm4tMTlubzRyNlkwNzBMMWZUMWs3RjM3VVNzNGFDLUFieExfaVp6cjhVbXU3ZlFkc253UURULTM3VVEzZUc1QmE0d1MxbElCdVJOSXdya0ZlYm55M1F1ZFk?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T08:00:00.000+09:00",
+      "publishedAt": "2026-01-18T21:01:25.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -1969,11 +1977,491 @@
       "score": 7
     },
     {
-      "id": "sha1:59caa0b89ddd0e286e3a3a57a4e746885b238b38",
-      "title": "（一社）教育AI活用協会、オンライン勉強会「生成AIを活用したデータ利活用の方法」を開催 (2026年1月16日) - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kV1BYaXhtQmt0a2xDU0xxejBMc2gtekswdmtKWEpMTDFHY09UcDF1Q202UF96SzRIbS1yM052UWJZRlZmejJzVWNsWFVmTV9fd29UMTV4cE1qMzFRelZ5QmhXQmg5NC11cVFLQWI1LTUtcmw2MEE?oc=5",
+      "id": "sha1:465683e4819db330d908ef51bf7b5e0a8a26dd67",
+      "title": "情報1の解答発表 大学入学共通テスト2026【速報】 - 福井新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4S1pseGdVNEo3NDBheURaM25xRmdvVThVZ3QyXzBXTC05NTBIU3B4WDd0eWRMZnBBZXpJLTl0OTdReVhpV1YyME03V24zTVdZNlphT0pma0lGRUhyVUE?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:00:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:28e8d43f2201db58b3b13bf69f7a28500daec548",
+      "title": "情報1の解答発表 大学入学共通テスト2026【速報】 - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xXzhueEVucVdxMGtkOWctNXJONlk1VTBLa1phcnpXN1h3YjRsRENUdFcxVEEwZTFIWmU5UjBybzZEOVgwSmQtN1pmTQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:00:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:2dd8d9d6dbadaa8a42726083ba1ce7528a8c7c7b",
+      "title": "情報1の解答発表 大学入学共通テスト2026【速報】 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aeE5lM2NmWUFXRDdzSkl5aDRWRUdSY0lXRFdDZHlidGt3YWhVTEhkNTlHQXRmUG9NcllOX2ZScDJBUWF6cEFDMFctUDZCa3BCTUVPSFFxWmVhYVBjLWNLNzhXUS1wUHluSi0ybl9jbUVpM2ZLamo4Umo5aw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T21:00:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:63858793a8fda51eb948e264ad126f0af5e75299",
+      "title": "共通テスト２年目の「情報Ｉ」、受験生「難化した」…２日間の日程終了（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JazJVSzBxOWMxcmZWZmhvWmVNNTgtRV9aME54MTNSZG5Hb09taUU5eXdsb096RFBfOFhzaS0zT1hWdW9zMEdUdTNCN0J0MVBROUJTTGZETjlBSXFfdUxqN3JWVWxQRmllOFRPME90WWZhVHhCRHpza1EteXdEWkE?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:57:04.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:7436dd4ff3194adca76703c1bdfbab56dea031f3",
+      "title": "情報 分析速報｜大学入学共通テスト2026【河合塾】 - 福井新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jbUpFRUtSS0I3OU40Qmt2TWxCYnN1WThkNlNwNW85MjhHVU1kYXpTMVNjRlVrZ1VHMkRFSTZnYjN6MnRVNUVZRlZwaDlXS0IzV0RqU2xtSFg2d0JpWWc?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:57:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:aeeb0e30563e9f6da8ed7106b489857f7c75d763",
+      "title": "情報 分析速報｜大学入学共通テスト2026【河合塾】 - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JQkFlM2hIM0t1TnRyNXlIcnNSZ0NSS24zXzA4b1VIdzBNckRGTG1XNFFzMWpEQ1FDczNGRU9LVWdEX3BKOGxXQ3Rtdw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:57:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:6e76b15a32016e726de90e35d86e5dc5e5b7765d",
+      "title": "共通テスト２年目の「情報Ｉ」、受験生「難化した」…２日間の日程終了 - 読売新聞オンライン",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNXy1NazZhbDZUbDZCS0p0bllNR0Y2eWd2aHlncUFSZHQzeUFpV19OM3BJWkJWQzNianhxc2c4OG5XUHRuWDd5U2JKZkpWV2htNXpIZXhGMkJ4Z21oMTlmbC0tVkdhUmpDUkZhdkRJMWtxVENqb25Ld184QWQ4TlU?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:56:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:7b0e57364b7bc84392e5be6e226d7aef248cc3f6",
+      "title": "共通テスト２年目の「情報Ｉ」、受験生「難化した」…２日間の日程終了 (2026年1月18日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VREpnai1wbHpaTHNMUWo5OFhaWm9qWWtNMGpJRDFmVi1IN1FrSmJfWVlYLWZRNkYxRDlWMjlHWWxJNnBNeUFGeFRiR09aN0NZY0NKT2FOeURKelh5S3c?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:56:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:2ed2e7c1b3227d45af80791701843acc908efbd1",
+      "title": "大学入学共通テスト終了 情報「難化」、桜の開花など身近な話題も - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSkx5UUlEZmlTNGYtUTNvelFuRWxsRzVMNWx1b3NfZk9oWF8xUHZ4WUZTS3RGZWtUeUZzM05lbzk3bXk1MG9ZTG1MVHdsVkFWV2s3NEtFc0pLLUtJd2R5bHdPZEJ2c1JM?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:55:45.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:ef1984230cf9861be9966a534dd28bf758d42d29",
+      "title": "共通テスト、本試験の全日程終了 「情報」に６割超の３０万人受験 - 東京新聞デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xV1Jpd0MzNWZwYnVUWFZCWjVDbUJxazQxTG9Sa1Z3WVJrUDF3cF8taktWVTAySmdmY0YxSXBfelljRUpSeUNxMzA3bll1MHd2clRF?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:41:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:7c92fba8c8df48154be372faa382e638e2cb90ba",
+      "title": "【共通テスト2026】受験率は情報61.5％・理科67.2％、数学も7割未満 - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JOG9PdEZHNTFqNlZSWXozRHV1Mmw1RUZIN1lRcEtYa2liOGJMWF9iQzl4TUNRbE91SWtOZnpvMjNaQ0E3SER6QmpmOVY4YUI3a1BIbGhpRW1BTEN3?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:37:58.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:60d9d37038931b4687e14074d0a0c56317281767",
+      "title": "【共通テスト2026】（2日目1/18）情報の問題分析速報スタート…解答や予想平均点発表はいつ？ - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NbkE1RGllM09OckZqUjRrb0VuMWp0Zm92MUNKTUJ3UG1CUzNtMGc3VHptT3BjT2xubkpjQkR5RHhlOWViTl8xQWpsN21Ba0dZNjJQZjlPekNvNlhs?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T20:11:59.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:5cb02d286d2aa3227d66a6f38641fa818b685235",
+      "title": "【共通テスト2026】（2日目1/18）数学2の分析スタート - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGMXdlZktDTlVzYXlvVnBMdHo4bHFTd1BfbnEyUm05Yml1S1pKSnplVFlXQlJjd3FwOFEzUWlETzJRTE9LYV9tOEtZbWZUYUI2WTBQZ1c5eTZZRklJ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:29:37.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:1c2239b6fab2aa41ebfbe1414adce3587463382f",
+      "title": "大学入学共通テストに受験生から悲鳴「緊張でガタガタ」「難化というよりキモ化」「励ましの言葉をください」 - イザ！",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OY3lmX0tBTy1sd2R0UnRNTXpvTmZFTjZzRWZTQ0k2aXNMU3VkdWxZTWZUc2V2dzgzdFNMbUdXcUxYWHN0LTJhSWJSMXB4UGhHbHgyd1d5Z0ZFNWo5RHFZRGc0VjdmcHBPYmZLS3BQTTZHbTVT0gGIAUFVX3lxTE02Q3BtTkF1eUdxZjI2MGZGSlV1MGRqQlZtbkM2VDZiVUV0SnpzUGViN2ZidU9FMGJVTDdWVFg2dmhkWFluLUtrMnpNanU5eDhVVFRmZDVJMVRxVVQ4ZURqX1FrVFFESW9ULWFiMGZkNEVPcVNUSmRpQ2pzNUxqMEQ5M1loUF9zbTI?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:29:28.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:88fa14f7d4b8d653941156460af8fd3168ca6ae2",
+      "title": "大学入学共通テスト2026 問題・分析・解答速報一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IMUpUcGR4a2dDT1JYcmhGeGgwZGEwVjZScmVfVkJmenZjakQtVkU5Ym9LLS1XSEZDd1VZN3RrQjNtQW5VQXVmNjBqV0dxT1hZcmV6UlhIUGQ0SDlZ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:05:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:8982fd27e04176b7be4d0b5ce3c4dcc43c3be8a3",
+      "title": "【速報】大学入学共通テスト2026 数学Ⅰ・Aの問題・解答・分析一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rcEg0OXJ5NnVkWnFpWTlOMDRwNmZWMHRpa1BDUzhMcGlHM1hhZ2FuQTQ2VTk2R0hjQ1ZvWmd0T0pJREppNlBKcThDX3l2T3h0MmVZTE1scUlIWkZa?oc=5",
+      "source": "Google News: 情報I 共通テスト 問題 解説",
+      "publishedAt": "2026-01-18T18:01:13.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:b43a9ad2083a5d1b210b5463b1f41e2717ff7260",
+      "title": "大学入学共通テスト2026 科目別難易度一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4LTlDZ3ZjRzFtLVUyODJvbWlfdnBBYTBaMUp4NnBJUllfRVRSekV6OHc4WFBvN0J4YThBLXhxYUpXZXk1OW43dExmSFdRWW5sQjNnMXlDekoyZzRw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:01:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:97382b3d1f58b0e3fe95adf0d383ef503ea2d587",
+      "title": "共通テスト「数学ⅠA」が難化 考えさせる設問多数、受験生「詰んだ」悲痛の叫び - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkY3NPa0dINmEyZzRtSFdXN1NPLXJOWFE3dVMyWktTWVpEb0t2dVZYR0xmX25DSU9fZE5WRC01T19BS2s4Vl9FcFEzN095NERoQldzXzByeU5oMWtz?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:00:52.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:4cfbdb99cb81435e89b788ba27d67d2e05d59ebf",
+      "title": "大学共通テスト終了、AIやガザ紛争題材に 国数や情報「難化」分析も - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ka2F2ZUtJTUNoYkxYLUw0eGZaNlVvdXRKSG10UE9BQVc1TFBWTEs0NEVZdVc2NnlqV1MxQ3ZfWXlNUjZ4VFVrTnNGUVRyS01RSmRIamdHY3NmTDkwY25FWXBNdjdEeHJwVFVBdg?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T18:00:44.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:6b55b86581c665c9fe03a50a2802766a9a791311",
+      "title": "【速報】大学入学共通テスト2026 数学Ⅰ・Aの分析 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53cENSRG40NGVsdlYxOUhfVXlnUWxPME5IQmhqNmFmM1dENVhISlBfWngtOENzUXA5UHNLSE9kNlAxN3dTWEJJQjB5cjlHUHlpRUhqQkhNR1dQNWlz?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T17:49:12.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:7801912dbd21904e2af1040957610e17f9d20482",
+      "title": "【共通テスト2026】（2日目1/18）数学1分析スタート - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DSk1wM05seGgybGVTRWRmUjlTR0lYbXA4dVJtWDdjZGtHa2dXMFlqZmN5bjZoS01GTUV1N3hBQ1pwbUxvZkxxM0VjVWZiZXNTUkg1RkI1cnRQT0V0?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T17:07:20.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:5fc67ec212a167698ac7a687906e20cc17f496a9",
+      "title": "共通テストの2026年「歴史総合、世界史探究」は「やや難化～昨年並み」～4予備校の難易度予想から #エキスパートトピ - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVFRCOWVBSjlVd0tYTVI0LVlYZkJ6bG82TmhQbnRfMWUxbmo0bHZjaldjSVkxalhXR2R3NHdQdmc5Ylk0ZmpuOUF5VFNDTWpVTUpfM3dwQXRVbzlQSEhxVlA4ZGtRdTlfQTZRcGlXVy1LbTlqRUpWVVRnazkwck0wUHRzZWlob2hR?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T17:00:08.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:b770847a6ec95cd72098ee91670961678b14ff26",
+      "title": "【共通テスト2026】過去2年の平均点・4予備校の難易度分析まとめ - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NNU5fdFZuazFjRjZ4Y3lZUUQ1WEQ5UGlWLUlneUZMcnlQNElMQk4wazVfdUtCMlNzRWNsTjJ3RTlPcG83R1M0cGs3bEFOeGpfdkpZVkVkZ2tiLUlp?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T14:15:03.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:8309f4de3e28fb7d4d52bca069d6f2cf4b19f90c",
+      "title": "【共通テスト2026】（2日目1/18）理科の分析スタート - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jd0N2U2VYZU81TGNGbWtWNnpINkxwOU92eno2NUFTbDRSV21RcS1aSDM5aktjTHFEcWMwSzVKTXZmeTNyNTdHR3BkMGxwRjRDTktLLTBQOGVnXzR2?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T13:33:18.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:81e265b98a7766d8401682d56f2b3bc0d192a357",
+      "title": "ぎりぎりまで資料に目を通す受験生たち 「大学入学共通テスト」2日目始まる きょうは「理科」「数学」「情報」 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ubkVlOVQyV3dBaXAxSGwyZmZNQkFIRmljQndtUExyajBsZTVWRHVaSnJ0UFBaZDdaOTROS0QyUkdySEF6MS03Y0tHXzhDMFNUZllUNS1GZw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T11:50:31.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:f634264060ac2a3eb2e212a98f784416cdf3c7a6",
+      "title": "大学入試共通テスト2日目「理科」「数学」「情報」の試験 受験票は各自印刷して持参する必要、終了後も試験問題のSNSなどへの投稿は禁止 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVEM1Sk9sRTBUcXdDQ0hBUDVfU1ZsRTdhQUhxRUdPRWpWaGI3SUNNOEt2UjRmNkVTRzNjZE1ZbktTZGVsbkdTXzczNjEzaFFlcjNTc0t6bVljWWVudm4xTHVHSFluN1dVV0hLckVHTWZqVWZEdVJNSVhlOA?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T11:35:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:fc8a61099fc3e345b8a37bbfa3c5a440cdedb533",
+      "title": "大学入試共通テスト2日目「理科」「数学」「情報」の試験 受験票は各自印刷して持参する必要、終了後も試験問題のSNSなどへの投稿は禁止 - FNNプライムオンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE55ZFBOVDZONjVCR09QOHg0bkxpTU1PT3VNaEFBT2hpZ3UwbFplZzZSdGVXVXhZaGxuRlN1WGJ2a2ZDM0c3X2loN09SUHU?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T11:33:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:c8eaa91e8f494dc8c885b564d2dbd1d4192f9c83",
+      "title": "大学共通テスト、２日目始まる 午前に理科、数学と情報 - 山陽新聞",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5haXY5OGU0Ti1mNkktZ3FQV3J3Q1lDTXhkemtDOEh6bXNZY1JLVzdWTlhBRnJ0ODY1R25odXJqbm9BTXFUU05JY2hMd1Rqdk1tZDY5ckZkczBzU0tleUZUOVdMcw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T11:08:11.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:f153e7f634fa2ca8534b6ebeedfaa7f5aad5e22e",
+      "title": "大学入学共通テスト きょう１８日は理科・数学・情報の試験 今年からはオンラインで出願 - MBS 毎日放送",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UMGpsZWpsRlplZndTV0xUQUJxcnNpcW5fQ3ZSdVNyV280bFppRjF2ZGhJcWNIM3NqaGV4QkotWWNHRFl2a1ppRnlNVXBTNEZ4TGoxMVg0YjQxY2l3clhTRHFScnRxYjNFOFNOYw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T10:30:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:6887252d5eb93801ff6a599191777d8072ccf1da",
+      "title": "共通テスト２日目の試験が全国各地で始まる…電車が遅れ和歌山の試験会場で開始を２０分繰り下げ（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fVGROQXRxRHNnTWhPOEtXSXg4YWJiS3d6bGJhbkdVeFhEajFnOTRXQ2ItWDEzaHE5aGdHdjczUkxTa3EwU2EyMjZNQnJiaVJPNTZpdk9Pc3JlVzVpcWszQlNqbENPS3phTC1KMHhvOVkwdlFkRTFIR0ZwaUpGQ3M?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T10:00:44.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:8026bf60d906ea5d9af81b326f1a6dfdab868f6f",
+      "title": "共通テスト、2日目開始 理科、数学、情報の3科目（時事通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZUURnYi1rS1NqZUJZaURUYjlOU1FRSnVQbWNGVERDUUstRllvRS1IOFJPSXJfc241YjQwMTJIR1AwOWI1SXloRXNnOHpTcW5xbXhac2RxYzRrakFzSlkyak5yb1c3TEJEMGZ1bXdVNmRKb3FVeHdNSnVsR3E4SHc?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:50:27.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:020feeeba8730e44e77d1738cea9f57ac06b81d9",
+      "title": "大学共通テスト、2日目始まる 午前に理科、数学と情報 - 北海道新聞デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jRGoyMWJISDVXU2l3QUNscDh1bXROSlVUenJHeTF3ME0yUkN1cE1CUzg3dXZ5R0tOd3RhWlp3YV9UY1hiakIxWHNiYmVWbDlQRU5BTkt2MXdzZw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:50:18.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:168af134733b67b45e95733addb78f4d197158f4",
+      "title": "共通テスト、本試験の全日程終了 「情報」に６割超の３０万人受験 - 新潟日報",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05OWxhX1NiQ0NpanhQWXAzMUFBNi1ZcHBSNFV3c3RScGtLSllzeF9nbW5Sam1FNFBvOE01YTkzNExtcjhKVXg1Z05HUlNXZjVuOF96SGRPLVdYQXdJV1E?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:42:16.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:470efed6ea8032dc894348bb731bd2b2362f64af",
+      "title": "大学共通テスト、2日目始まる 午前に理科、数学と情報 - 西日本新聞me",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xNFpZRi1pdUprOGR3dU9oM2IyUjZwT09IY3hadFdsWjMwbnNsRjVHTGphOEJXS3dpeXJtVE81dXdUNy1saWt2NTdwUlFTSV9FQy1mcEVR?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:42:16.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:12bbe77edfd16762cfb7a672de8fed96316fc623",
+      "title": "共通テスト、本試験の全日程終了 「情報」に６割超の３０万人受験 - 宮崎日日新聞",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XUnFXanBhUXJCa3I1bDdMS2J4aEhPOFdNTGx2WWJFbjlWQkJaZlpMYVU1RkJNcU80OUpGRmduT05mX0F2ckc2QUg0MmZpUlJtelE0NExjVHlCWDZTOHVHT0JNTGtCNXJHalhkUW5NeDFQSXc?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:42:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:b37315e7b3fa2ed68ae85843afbd62fa0cc44005",
+      "title": "大学共通テスト、２日目始まる 午前に理科、数学と情報 - 山形新聞",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR3J1d2lKYVNnaERCdENmdVVzOTkxR3plV0VBcVN5LWJQNWl6LWFZQzg5VWx5SnJWNEx5dmwwMUdPZVNmZ2tMSllMdmpJeTlic0F4anh1XzRjM0xXUHV1LXozNmg2LUtQQ3UxS3FBTGVQNk5UbTBYdVdyQ09aN1k4V2pSdGg4QQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:42:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:ff278e82be92b638afd4020d98dd42f074e23bf6",
+      "title": "大学入学共通テスト2日目始まる 試験は理科、数学①、数学②、情報の４教科 兵庫は35会場で|社会 - 神戸新聞",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsOHlWQzMtbW45Sk5wZzVXVmhFQmNXMENQUXcxQmtnSm15SVdyWTJYZFI3R0JhLURraVZEX3FjcFktZzJ3eVN6TzZJWGk3YmRhY1g3RG1GcUp3NXZxemt4NFFMYkNQQlFLTUlDTVJB?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:40:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:59858068f54a87dcb343db2781899277d2c797c9",
+      "title": "大学入学共通テスト2日目 理科・数学・情報を実施 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ucF9lalpmVlBUakx3M0kyYlVrVjVubHJGUW1kUEl4WmE3ZjhWZlN2MW5DcVEtZEJINGdWZklGQldrQTJsXzhOTzEwMnN3V254MTNMVXA0b3lQejd3aXV6NWt4UnpORWVKYWk0ZQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:34:40.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:3e080c150ce555d31f65434ab8e85f333ae42f93",
+      "title": "共通テスト終了、全問題と解答を公表 地学に「タイムマシン」が登場 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pVEVmTHhUY182MVBEcjQ3YmRLMG1KeU9pQW9yNENfbm81VFFoWFJQNUlnMVdtalUyZ0JXSV9xT2JRb2RKNjhJR0l3Zl9Ua2VTMEpud2twaFdIM3FMUXpHU21JSWhPMUU?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:34:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:3f63c837662e9149348f16522dc22615b0b34244",
+      "title": "「情報」難化か 国立大で配点化の動き 共通テスト2日目始まる - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rMW14STJQMVlnQkNXRFJDc3YwSC13dk1sMS1QRC00RWpTM0JkSzBJSEFuMy1FcVBjM3VZd3o2dVlzWnprVC1fNENYZUtHMWhYc3FaM1dmSFEzR3lXRXYzaHJncTJLdXBK?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T09:31:24.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 7
+    },
+    {
+      "id": "sha1:0415f519174691a5be630e4f02e9a56c1d7d19bd",
+      "title": "さまざまな要因で利用格差が存在 千葉大が生成AIに関する大規模調査 (2026年1月17日) - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FUnJKRENVdEpLaGoyWXJaR3lrWjY5MnBaNm52OXo0VS1vSU0zd0pyMFhWeHR2OWU3Tmtqd0NPVDBlZkJzbkVEeFM2NmhvRXMwRHZRLVpFYllMamNDQ084?oc=5",
       "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-16T14:10:00.000+09:00",
+      "publishedAt": "2026-01-17T12:00:00.000+09:00",
       "tab": "AI_EDU",
       "tags": [
         "活用事例"
@@ -1993,101 +2481,163 @@
       "score": 7
     },
     {
-      "id": "sha1:354df349d585881ff83e58d9b0f102b49d634378",
-      "title": "生成AIに関する意識調査、思考力低下の懸念とAI活用力への期待が交錯 - こどもとIT",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWclJ2TUY3aFFhNHJyRFFCbnF0R2JpLUhrVWphZXByLWYzMWxPdE5ib2hjQjU5NEFkZFoxZGJqUFNZM2dIT3A3TVdWbElCLWlHRFVZT19nWVpibVpwYjRRVjkwQzg?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-16T06:30:00.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:8928e79df5e4ee4617cdbc82c99a0cb3860ecd03",
+      "title": "2026年のCopilotは凄いぞ…「エージェント前提」で日常業務が激変、次の新常識とは？ - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93OWo3blZ3Q2RsNjJZSi01WmEwRm42d18yVHNnOEJfUzJVNkxxdzBYMF9XbHFLR3R0ODdLU2RJNWxzYUFDcFgzNkhJLTB1cnJrVFFj?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-16T06:10:00.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新機能",
+        "ワークフロー"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:8e975dbe2dfa5719b14af4b6e8a3b77f8063d367",
-      "title": "ソウル中高生の95％が生成AIを使用 教育現場は活用拡大と依存懸念の岐路に - Plus Web3",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FTGc3NEI0c3JzVVlScWQ4c2Z4YnBmYlZqT1kzcXltdlpha3RFUGd2MDgybGJDN2FYaVZMaHk2cGptdjY5c1RVT3ZwQTdyaUZVdWtXblVKckQ0TUxPeWc?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T16:07:48.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:306026295c3a4f2ab81cb5d8d90af2fad5764353",
+      "title": "Claudeの新機能「Cowork」とは？料金や使い方、活用事例を解説！ - 株式会社SHIFT AI",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZcGZOZUtWNWJ1MHJqSlNBVmF3U3FOdDRxWm5pNHN2aDNRblJ0WkRFRXVoaG5SWC1KYnVRd0NSaUZnRWF1U3dEV3hB?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T23:38:14.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新機能"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:874e1b2c14f8c915297f8c201425faa162bb0216",
-      "title": "（一社）教育AI活用協会、教育AIサミット 2026 in THE CAMPUS 「実例大全」5分間プレゼンター募集開始 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zZTBkNEJwSHhmWW1ZMGllMFg2a195Tk42S19WSUh4NklCbjV2UFRGc25EQ2FLbmhCS3lfX0lUZm1nMHMxTnN5UGQ1VjAxTHZiTmZZaGlKR190OEs4S2Y4bGx3R2NzX1JjeFE?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T15:00:09.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:098caf01ceb7b7c662027f78692cf3b5c4b8fd0a",
+      "title": "AnthropicのClaude、自らのAIエージェントをわずか14日で開発。「AI自己進化サイクル」突入か？（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80bXhVeHNXbHJNaGcyT0F3VG5CNURJUG9LMzFTTncxcE5PemJtMnJZeGVEYnhVY0pFbVQ5VHhXbFNRczVPX2ZJQ3VVYjhyR2NpQks3RzhzQXVtZnZRdVdUWUM2bE1ZWkVjMnJOZllReG90c3lNQmk2ZGdZT0xsLUU?oc=5",
+      "source": "Google News: AI エージェント ツール",
+      "publishedAt": "2026-01-15T20:00:06.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "AIツール"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:a6880976f1b8ecfc0cfc9d722bc7695b15358cfd",
-      "title": "（一社）教育AI活用協会、教育AIサミット 2026 in THE CAMPUS 「実例大全」5分間プレゼンター募集開始 - リセマム",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Qc3AyQlNLQjNuVzA4b0tFdUI0VVlYYzlSYWswZVBPdmF6VXNnYTcwY2tNaFJWNkJiMU9GaXIzc1lkOUtyRVh2TVgwSHVLVmFJeU82QV9OdGtjMzQ2MU9DNkpvVTVFZw?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T15:00:09.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:121e16d74c98b84516f7e53b9ece2ba31040107f",
+      "title": "AIエージェントアプリケーションの構築を支援するオープンモデルを発表：人工知能ニュース - MONOist",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fbGxUMFNfNEJpcThRMm1FYXo0Tld0Z0tMVE92cUM1MTliRG5BdzZYeEc0cV80NmU5Y2xRMFM2aVQ1YXZPUnl6ZU82bVJJM01UOFU1bzBaS2pIc3g3TGFJVzEtdHg4RFZVRG9RLWZWTQ?oc=5",
+      "source": "Google News: AI エージェント ツール",
+      "publishedAt": "2026-01-15T14:00:00.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新モデル",
+        "AIツール"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:3a380c59d871c6416ef539ab90d7b14bed1d70db",
-      "title": "IKIGAI lab.、親子と教員向けイベント「生成AI、どう教える？どう使う？」を2月7日に開催 - こどもとIT",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhRUtjOVZhNzNqQ0Z4ZlZCTzlYRkNYaVlRMm8wMW8zX21LaE9rOVMxNjdCa0tvbU9zVkMtcUFDdEFyS3BWTFBtNWo2SVVjTkgzQ1BnWlVHYmtXMHpjZHVmekJNTXk4Y1p3YlRvZA?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T15:00:00.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:60ff5cf617286f307582db8c38f17ff106f57e7e",
+      "title": "【2026年最新版】生成AIおすすめ16選を目的別に徹底比較！ - 起業の「わからない」を「できる」に - sogyotecho.jp",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iaHMyQWxGNnZ6TmZSa1dxQXlzZVFPQ3FaVGdMR2VOcnJZN0VuRWZvN1dfc3Z5UUE2Sk1wcnRoWEZwM09IWndXYU00OHNJTFR1TWxYalNGSQ?oc=5",
+      "source": "Google News: AIツール 新サービス",
+      "publishedAt": "2026-01-15T13:07:06.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例",
-        "研修"
+        "AIツール"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:8873d30d07a75003d4b85a125fdf7d56f3dbf490",
-      "title": "小学生〜高校生の保護者、3割超が生成AIの利用で子どもの「思考力の低下」を懸念【「Kidsプログラミングラボ 秋葉原教室」調査】 - EdTechZine",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lWVc5QXN3MHpEMXBlaDdIMGZ2R3BXT1RGWVFnbDNKVzY0dEtQblFQQ19KVUFqMGw5Y3hxeEFsVjh5SE5LTWlaRXBjZWU5eUFoWFVzVQ?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T13:38:02.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:be6e944eb83d60c715f491b01194fdce9cc397fe",
+      "title": "グーグル、Gmailや写真をGeminiに読ませて“個人用”にする新機能 - ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRTXlMSUFVRHdzZ2dOaWhtdjdfalI1bXVZeDZrUXJjUHNWeUR2ZG01RzVJOVJXRmFmY2JpMFBXNXBHTmdZeEhuV0pTQ1ZndHhjb1lHaA?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T13:00:00.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新機能"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:d1d008180ee721808f42d029d347eb6c4be79ca5",
-      "title": "教育AI活用協会がオンライン勉強会を開催！生成AIのデータ利用を探る - サードニュース",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PRnlUX19nczhoYWxqbGlocEVuMDczblZiLUgxUEY1RTJjM2NRTy1TVTZpTXF2ZEZZcHdnenVRNXFWUE1zYWhYbzQwUEU3ZTh6SjlmYTdiYVBDa1o3Y1Nid2RNdHpzN0lnekFueVhfcWZUQ0l1S3NpLS1B?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T11:05:58.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:84306d171b9df9b4e079d00a7d621397310bcd01",
+      "title": "Google、動画生成AI「Veo 3.1」を強化、YouTube ショートなど縦型動画にも対応（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZ0JjeVpQSkJnT2M2LW05QUVTdmxvTGN0VGUxSU85aTFVWU5JZ2xkSG9VS1Z5QkJhQjhIZXZSSVBDMnhGcU9PNGF0d2FPdFJ3M29MZzNPUXpNbXBvSnd6MUxBMGNQODd0TWZNYUhJdmVxbjhBY0tXamFLSlVwN1E?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T12:40:07.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新機能"
       ],
-      "score": 7
+      "score": 6
     },
     {
-      "id": "sha1:48d3303bc6dd4231fd7c86f37f6f072a3a57cea3",
-      "title": "教育AI活用協会、生成AIを用いたデータ利活用法を学ぶオンライン勉強会開催 - ニュースメディアVOIX",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE05YnZybWphOWdjYnk4THJIYWFfMWFXRzhFSDk2QzlOc3ZRTUVWV3VIcVJmOHltZjFKSUtxc1p6eWhrWHlMQWc?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-15T10:54:13.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:cc4b58e88f47e1bfb5f5b351b899214a6df4e01c",
+      "title": "AIエージェントが「日程調整」する機能をリリース。法人向けAI「ChatSense」が「Google カレンダー」連携機能を公開 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMMEFIQktMbnVYb0Ntek5DVjlrMzM4N1E0ZHVlWDMyemJ5dXJManBvbnhBQUptUHNWVzRva2VjSmgtN1VOT3RuM280MnpoZV9FNDFIckJOaldmR3I3XzhWd3RlUUpuRTZDS2c?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T12:12:15.000+09:00",
+      "tab": "AI_LATEST",
       "tags": [
-        "活用事例"
+        "新機能"
       ],
-      "score": 7
+      "score": 6
+    },
+    {
+      "id": "sha1:3631b670825ab3e4569793cb71c81cca9d11ed77",
+      "title": "生成AIで映画は1人で作れる。Creative.Edgeが辿り着いた「60点主義」の仕事術 - ライフハッカー・ジャパン",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XU1BPZUxkM01DYjNfUXpDX3RXUVJReHBMN2FBNjUyTFpfalp4cmNQQks5V2lJd3NQbzdMWnMxSm5YM0JUWlRUaUk3WUdteEV2TGNaOHlhYVlKbFRiMk1kNWtGVktReDVyWFYwWE9URlFVZw?oc=5",
+      "source": "Google News: 生成AI 仕事術",
+      "publishedAt": "2026-01-15T12:00:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "ワークフロー"
+      ],
+      "score": 6
+    },
+    {
+      "id": "sha1:c4c39dc565dc55dd20093615ac76c54b4b41e09d",
+      "title": "Bill One、請求書業務に「なくせる」をつくるAI新機能を発表 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVSWNiZEpROW13Mko4S3VVLWJoS0N4b2RnOTVKTGt4REV4aU44YXFYNnBkbHJQV3JMdTlweTBaMFU5bmYxX2ktZmxNNzFkWmpsY0ZKWlkwRGg4NDAwZmdfTm1PLURlaWhjc3c?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T11:30:01.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能"
+      ],
+      "score": 6
+    },
+    {
+      "id": "sha1:3b2c6e9bb42a182d42277a974ffef60367628013",
+      "title": "アンソロピック、新AIツール「Claude Cowork」の大部分が、2週間未満でAIによって構築されたと公表 - Business Insider Japan",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0FFSWFyMW9JVFF6dFNLNlpTWTZDdEd5bWJNQld6TndfVndHNnk0WWp3THF2Q29vaTNWMVFrR0FxbTVnQWRIcVZqejN6dXR0Z18xR0xXSGJTNjMtaVBVbWhldmk4RGZUR251cktMSE5zYUxCYk04Ykx2aVpTN3pBN2MtdkVZVDl3eHB1WEJyZHJuZw?oc=5",
+      "source": "Google News: AI エージェント ツール",
+      "publishedAt": "2026-01-15T11:05:00.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "AIツール"
+      ],
+      "score": 6
+    },
+    {
+      "id": "sha1:daeeb1be1c15f735181092c376b74bd6eaf19612",
+      "title": "【Algomatic】営業AIエージェント『アポドリ』が企業データベースと連携し、新機能として提供開始 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GVWs4X1ZhZGRXSjBJZXE3TlFVSks4bUtoMjE4bzFOd0VwMW5nWUFiUFhRMkpRQWMtbDhJcVVlZ3d1MFVKNEQ5T3JDbFhGcUJtLWtHZ05PMlBrR05nYTZvZzJ2amxZd0Z6UGc?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T11:00:04.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能"
+      ],
+      "score": 6
+    },
+    {
+      "id": "sha1:192c22799bacab0eb8d5556908659c273503589c",
+      "title": "イトウ先生のTips note 【Photoshop 2026】GeminiやFLUXなどから生成AIモデルを選択できる「AIパートナーモデルの選択」 - CGWORLD.jp",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJa3Z6ZWpUeWtabnM0YS1yNWRoVG0zRVhUYXNOaFA3eXU1eWgtZUNkdnJRcFJ5ZUR1Y01YMXFkN2pDenJyM2ExWTYyWmx1TGtIZ2Y5eDNEOWpGLW8?oc=5",
+      "source": "Google News: 生成AI 新機能",
+      "publishedAt": "2026-01-15T06:56:59.000+09:00",
+      "tab": "AI_LATEST",
+      "tags": [
+        "新機能",
+        "新モデル"
+      ],
+      "score": 6
     },
     {
       "id": "sha1:4181b61b1804c328398ab5c7fe4580231094687d",
@@ -2098,18 +2648,6 @@
       "tab": "AI_LATEST",
       "tags": [
         "AIツール"
-      ],
-      "score": 6
-    },
-    {
-      "id": "sha1:cb0abacb7ffc5b867b20a67d02829e986020bfcd",
-      "title": "管理職の仕事が変わるプロンプトは？ チーム全体を生成AIガチ勢にする方法 - NIKKEIリスキリング",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWYW9qMnAwaU0tNFhIQUNkSE5KaFZpaTI1Y2pteEJCMDVTeG9MRW1XVjNadmRDek5iaXhtVnRuaEQ4ck56X0ZOU2lJSUFLN0d5RXM2TjhxSEo2dlNsOFZ5U3p5ajlZZXhjSVNUdnR3dlBaZw?oc=5",
-      "source": "Google News: 生成AI 仕事術",
-      "publishedAt": "2026-01-15T05:08:54.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "ワークフロー"
       ],
       "score": 6
     },
@@ -2162,14 +2700,14 @@
       "score": 6
     },
     {
-      "id": "sha1:ce04c1c20c60e37134fac95cb21bef56c873cad9",
-      "title": "HINOME、AIが分析レポートを自動解説・改善提案する新機能「AIアカウント分析」を2026年1月から提供開始 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UZEdod0ctcUZkbmdLRzgteENQU3pHZnd2S2NtVXY4VkF3TE5SOV9XMUlfTmdqOWZidFgyZjhvdTBMeTY3dVlIZFNuY0hFbU4waWFRU1p4U3lCbmlsMkg5TmRxcVY1MHJXc1E?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-14T10:10:02.000+09:00",
+      "id": "sha1:9dbf5078f0c81ca2787636316811c8e10c564e67",
+      "title": "Anthropicの新しいAIツールはすべてのコードをAIが書き、1週間半で開発された - ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yRGpwUTE0Qm4tTzFCODRiN2x3dVFqazBwYy1zaGJwTV9aaEQ0UC00Q25lQ1hpdTR6VVc5UlkxVXdhNlF3VEtGVXZTaWxhTm9Zb0dNSg?oc=5",
+      "source": "Google News: AI エージェント ツール",
+      "publishedAt": "2026-01-14T10:35:00.000+09:00",
       "tab": "AI_LATEST",
       "tags": [
-        "新機能"
+        "AIツール"
       ],
       "score": 6
     },
@@ -2222,11 +2760,11 @@
       "score": 6
     },
     {
-      "id": "sha1:787d03d84b77cf92148ade7d72fb54cd0c22b9e9",
-      "title": "マッキンゼーが「人間がAIに勝てる」3つのスキルを特定。「若手が磨くべき分野」はこれだ - Business Insider Japan",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYldZcWJROGlDVTdoTVlzR3d0OUU3aFFNVS1jQlZaYnFDZ3V1YVRsVFpmT1JBTVJhNXlRNVFPOERZQ0NDRXdra3ZSWnJiSkx0aVdwcklJbTc4TGpmM0ZSRG1zXzk3cEdic2REZEhENUtlQlA3WldYcV80S3hzYWkxbXdjdU83NVFMMXBkVGxQRGNxczNzbmhsSTI2ZFc?oc=5",
+      "id": "sha1:b0fd79ae83028434a975eaa343a5fbbf247da7d3",
+      "title": "AIを「使いこなす側」になるには？転身成功者が得たスキルと共通点 - 日経xwoman：クロスウーマン",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TUUFUc3NfNVJYaVV3ZHp4VWtRWUZxd0dlekFYXzdaNXFjcmVrMFRyWkxQRW5BQTdvTEdQamR6UzdOb0F6RGtJS2t1SFl1Vnh4Yy1wcnZsZFZ5dDZYR2JLOVNkeXl3TDlVTEFLY0NB?oc=5",
       "source": "Google News: 生成AI 仕事術",
-      "publishedAt": "2026-01-13T06:15:00.000+09:00",
+      "publishedAt": "2026-01-13T00:00:00.000+09:00",
       "tab": "AI_LATEST",
       "tags": [
         "ワークフロー"
@@ -2234,23 +2772,11 @@
       "score": 6
     },
     {
-      "id": "sha1:3f24070f3173c0fa365455145ca44825ea6e26cd",
-      "title": "Gmailの新機能「AI Inbox」──生成AIでメール管理を自動化 - WIRED.jp",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sdmNUeVlwSEtBdEJwanFONTVaU2NSeU5Sa0xoTWhyaTFYeklPS3dibHNqUHBick15U2hRQUV6dGhMb2FrMjRtUWN5OGZlRVo4WGRHR2J3MWFMaDQ?oc=5",
-      "source": "Google News: 生成AI 新機能",
-      "publishedAt": "2026-01-11T17:00:00.000+09:00",
-      "tab": "AI_LATEST",
-      "tags": [
-        "新機能"
-      ],
-      "score": 6
-    },
-    {
-      "id": "sha1:4227099d79f99c702759679d06ab2727570b39cd",
-      "title": "【黄砂情報】黄砂が「大学入学共通テスト」の実施日にかけて日本列島に飛来か　九州、四国、中国、近畿、北陸、東海、関東甲信、東北の一部地域に影響の可能性　黄砂はいつ、どこに？　屋外の洗濯物やアレルギー対策などに注意　黄砂シミュレーション【気象庁 17日現在】 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0aWhWTkRCRDlsR3FjZXJBRDNLTmhZaERtaWxKalFicGFBN0RyeWF1bEtoYUVTNEZDd0s3TThIZHNRcGlDUWZUMTd5dHhqV08zQzJGbzk5dEdPbkY2M1VaNEFtUHotbmtINHF3VnFYc9IBdEFVX3lxTE54ZjdidGFjN0phdDYwRl81YjVzU2VRdDE0VUI3X0JGOG53RTNGcjQ4MmduNEY0Vk12WnZqS1FMVmJxNDhwaE4waTRqV3VvYjVJSDdqdWRESEVNOFIwQnpBdEpnWG5kazRrU0hJbmxEV0RIZ3lR?oc=5",
+      "id": "sha1:df87fe3b1f29e622da69322bc0cf94209f914168",
+      "title": "大学入学共通テスト 群馬県内7736人挑む きょう18日は「数学」など3教科 - 上毛新聞電子版",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QWG4yMERCcTdIOHBFalRYSGZNdFRkaXVmNFRHZTluNUNBWHUzR1A2X1ZvNWlJcnJaM2hsekNhcThTdDd0djFac3l2VzBQZWYwUlIxNEFpLS0?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-17T06:42:00.000+09:00",
+      "publishedAt": "2026-01-18T06:00:00.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
@@ -2258,14 +2784,303 @@
       "score": 5
     },
     {
-      "id": "sha1:9cfbea1ecd03cd0dde186146a867ff39a4b72cf0",
-      "title": "2026年度・大学入学共通テストはどう変化する？ 専門家による出題予測と試験当日にうろたえないコツ - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kZ2xMZXFSRHNscU5oTjFMcUpZMXBFemdITWsybXZGZ3dIaXF2WjRvOGMwMk1ya0MtZjc5WjgwMXktSjk3bVBWd1pDTlBoR0FSQmxUR19IdUVLUVJBLVI2cUdxNzI3V0FHWkJldDVWQVZvUzlDbUdpQXJtcWRCeVk?oc=5",
+      "id": "sha1:b8bfb926d084d8eae3567ad7e3734f7725d840a8",
+      "title": "共通テスト2日目は「理科」「数学」「情報」 今回から出願手続き原則オンライン化も初日には大きなトラブルなし - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAydC1SZXBicjhtNk1HOEFObWFXNUVWdENRY191X2FBb3JfTHY0R3hMakpHTWtDbnR0ektUa2U4OVdXYkc3SjN2UndTSzBoWnJEblUxSmJDSQ?oc=5",
       "source": "Google News: 共通テスト 情報I",
-      "publishedAt": "2026-01-16T06:30:01.000+09:00",
+      "publishedAt": "2026-01-18T00:31:25.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:056d1e6f75577ced8cd248d8ccca489a8e994c7a",
+      "title": "共通テスト2日目は「理科」「数学」「情報」 今回から出願手続き原則オンライン化も初日には大きなトラブルなし - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnVkZja0dTbERxRjh2SHF0SzIxWDg1RDFITmJXNXJuY180QjZBaTdmUHlCNktSSjZRWDdSb2VLdFdRTktJcHFiQXVUeGVKbTQ0Z05ObjRHMGplN2J1NW9KbjZGTFdfNy10RHV3b2U1M2F6bEUwNnQtdW5HbkxFeTQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-18T00:29:44.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:746588336e56df9cf34ecb2488ac9ed8baf70605",
+      "title": "英語（リーディング） 代ゼミ問題分析 大学入学共通テスト - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdS1sY0xkZExfaEZZV29kMTBjODJnZk9FTjI1WnpTNnFpRU5HcTZYbEpwcFE3VTNLTVdzNGx1ZXVfd1YxRzBFRU56R3Z6Z20xVDl3amNmV3ZJVjZHRFk4eXVweDRoRlU?oc=5",
+      "source": "Google News: 情報I 共通テスト 出題",
+      "publishedAt": "2026-01-17T20:41:17.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:2664399dd9b9aa3f27dfe33dff1f0fd21892a13f",
+      "title": "【速報】大学入学共通テスト2026 英語（リーディング）の問題・解答・分析一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QdlN2bFlRSWVvLVczaVhoT1FrRGVlaExsTUV4ZW4xRWdBNjI1SWZsUHgyUzdLeVZ4eHB3RzA2c2Y0aEx0UFZpb1gxdmhMcjFCcW9GOXpoazNaVlRf?oc=5",
+      "source": "Google News: 情報I 共通テスト 出題",
+      "publishedAt": "2026-01-17T20:30:24.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:5fbc98b271a100c266164a1f7f2ba3309853a5b7",
+      "title": "【共通テスト2026】（1日目1/17）英語リスニングの分析開始…情報を的確に処理する力が求められる - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTEFPdEZvTzlsM3BGSmxSdVAwRmpQLTU2MVlDYkVla0FUbGlZRUFOazlyZ1NtUlI2TXdIWGh4cWhmcFVNeTlrZXRVVFVZWHlWa3ViZnZIeFlGN2Fj?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T20:04:28.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:aa6a73da7f7e5549d85b785e46082c01c09a3cea",
+      "title": "【速報】大学入学共通テスト2026 英語（リーディング）の分析 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54aGJMeXFPUW91M1pHcUJZTzF6VGQyS1EtSVlmYm5taW9sdW01Vi1TVld6TGFVWDJYWlVydUxBTUJWRkRYemsyVzh1Yld0dkdmZ19ZaHRiRUZWaGhL?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T19:36:39.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:adb12885379a88e40573acb5b8f07dd319ee1cc8",
+      "title": "「大学入学共通テスト」高知県内4会場でも実施 1日目はトラブルの情報なし（テレビ高知） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nZFZNa1QtT1U1cGJHQ3gyS2tIWDk2NXBjNWQtM0xKM1d6d2VzZ2JHbGh0dnVVSjR5ZDNyeDZPOXF1RU84SWdFTWY2dFhhT3BMZHdxQmFmTXJfNF95LXh6MnhFZGZQN0FDemsxQzhodEtLODJUbVNRRUk3QnlMTlU?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T18:22:14.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:95ce988e30345ce05f52539f7b4c372c079a7bd0",
+      "title": "【速報】大学入学共通テスト2026 国語の問題・解答・分析一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pOTBKY1lVNjVwR2hlbmtjeTZoSDlaZk94aHVieExScU9fRHZvSzB4YUNOQ3JfdGhLc25iN2g3aXpnLUh4SmRONFZNMFl6X1hoYTc1V2ZoUVZtdlFl?oc=5",
+      "source": "Google News: 情報I 共通テスト 問題 解説",
+      "publishedAt": "2026-01-17T18:01:32.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:9dc5b87d38672d7e0ffb3c70d748e6f69c4821bf",
+      "title": "【黄砂情報】黄砂が「大学入学共通テスト」の実施日にかけて日本列島に飛来か 九州、四国、中国、近畿、北陸、東海、関東甲信、東北の一部地域に影響の可能性 黄砂はいつ、どこに? 屋外の洗濯物やアレルギー対策などに注意 黄砂シミュレーション【気象庁 17日午後6時更新】 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nWG1KT0N1d1gxMXdNY2JsWXl2VHN2MTB4eHZqTHg5cTZuUmxydWpxUlZ0OHRIQ3MzMUd3NHRObVhUejN6b01LNGJpbDhGNmh1QXpLUTk2cVhvUEtSelN0a2gxN28tZzRObC1lQUxlR2FnS0NmYXBIeGVqakwwd3c?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T18:00:35.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:6c48238f9c69c88c4a60754148163ab04dcc4309",
+      "title": "【速報】大学入学共通テスト2026 歴史総合，世界史探究の問題・解答・分析一覧 - 高校生新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13VDZKLWRkVjBnNHRlZFUzd1JiUmlIc1VaOEZPallnM0lOaDRvQnpCRHkxZjJzeEN5Q2ZjT0VjZzJPVWlvWDJVb1lYbHRNVTRCT0pmb0prR01iQkJj?oc=5",
+      "source": "Google News: 情報I 共通テスト 出題",
+      "publishedAt": "2026-01-17T18:00:22.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:b66d70a85aa250c9dfe4e2bcf4691d42c914a396",
+      "title": "【日経】共通テスト2026 問題と正解（旧センター試験） - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Y0d0ZFZvWkozY2tGNTFGU1hIZkZsc0xNdHZRcHJ3Q1NiUENNTWpRdTZFQnhkMmxxd3BfeWJEOWJUdmJWdnhiTURHbmhuSm9vM3FJa245ZUtQLXFPTmowUjY1cUJYQ1UxWEJ1OA?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T17:56:39.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:20f883f9bb507e2c161fd90f35ae41b6522ff872",
+      "title": "【黄砂情報】黄砂が「大学入学共通テスト」の実施日にかけて日本列島に飛来か 九州、四国、中国、近畿、北陸、東海、関東甲信、東北の一部地域に影響の可能性 黄砂はいつ、どこに?【気象庁黄砂シミュレーション/ 17日正午更新】（RSK山陽放送） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCdUE3ajhZcXVrQUZVLXVzZFdVWVU4dzE2eVdYbHdQNVpaRkFrTzBsRGNoWm14Q0dVYnBCZWZzX3ZUNi1HdHowSjFtaS1EY0w3RjFpdk5aWHRmT3ExaUtvTkZoc0plUkFtT3JLUm1YUU5ERXJWX2ZZaHU0U0ZkUzQ?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T12:00:36.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:d952437b7a636777d14e2f46fdd0baf92b13de19",
+      "title": "大学入学共通テスト、今年から問題のSNS投稿禁止に これまでも「認めていたわけではない」 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxaExGUGNXc1dONXFfelZwcUVzYUdNWC1BbkRZb2JGUkN5WF9CSEZQYk1QcWZ5aC1IU3YtcGJfd1lQV19yd2Q5YzgydHlXcEhjUTYyMHVwa0NUdDQtMzh3QzdkcVJJNTduUS1mZw?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T11:40:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:e9beae16a9ed00a96f7e61d4818dddeaa23c1b2b",
+      "title": "情報Iは10点下がる? 大学入学共通テストの平均点、予備校が予想（朝日新聞） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UN01DUWhWcXF2TUYxa2pZeUNaT2ppLWFpQ1N5SDZLLVNoZzlGV1JKcXAzZ3owdk1lb2E3WV9hT2ljYWVTaWpZb053X2IzRnQ5UV91V211NW9PdW9HU3JNXzRUMW5CaU91MXExZ0Y2MEt6RU1TVndQZ2tGMk5NbXc?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T09:14:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:90621ead54f9aae6080b79f6c6083b74db63359d",
+      "title": "【黄砂情報】「黄砂」が日本列島に飛来か 17日・18日「大学入学共通テスト」の実施日にかけて広い範囲で飛来の予想 黄砂はいつ、どこに？ 屋外の洗濯物やアレルギー対策などに注意 黄砂シミュレーション【気象庁 17日午前8時更新】 | 岡山・香川のニュース | 天気 | RSK山陽放 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91V0hxZDkzRDVEQjdoY1JjYnhLUV9oLVRMZ3dqQjRVd3RldGZqdS1EMkhBdnNWTEo0TEVTVG4zZ1ZWTTZFUm0xajdyVG4xQXFxdXRzQUQwdy1kMktQVm5zTWJjUEdpQUE?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-17T08:00:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:5274c6d3118b816c9cae8fcf6837257904ef0be8",
+      "title": "2026年度 大学入学共通テスト（2日目）問題と分析を公開 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HdHBjbTRGbm1ocnFXamFWeFpsNXhYZHpKMXZ2b0JJMGZHd2FhaVBIMW9hOXNxUGU5REVzN0EzNzhXUC1rN0dKS2dadW1OTDc4YW1GM2NibUtmQTJxc0Rua3MzZHdSX2UwbzVFQnp0Y3FTRU91Ync?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-16T12:00:00.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:354df349d585881ff83e58d9b0f102b49d634378",
+      "title": "生成AIに関する意識調査、思考力低下の懸念とAI活用力への期待が交錯 - こどもとIT",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWclJ2TUY3aFFhNHJyRFFCbnF0R2JpLUhrVWphZXByLWYzMWxPdE5ib2hjQjU5NEFkZFoxZGJqUFNZM2dIT3A3TVdWbElCLWlHRFVZT19nWVpibVpwYjRRVjkwQzg?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-16T06:30:00.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:874e1b2c14f8c915297f8c201425faa162bb0216",
+      "title": "（一社）教育AI活用協会、教育AIサミット 2026 in THE CAMPUS 「実例大全」5分間プレゼンター募集開始 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zZTBkNEJwSHhmWW1ZMGllMFg2a195Tk42S19WSUh4NklCbjV2UFRGc25EQ2FLbmhCS3lfX0lUZm1nMHMxTnN5UGQ1VjAxTHZiTmZZaGlKR190OEs4S2Y4bGx3R2NzX1JjeFE?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T15:00:09.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:a6880976f1b8ecfc0cfc9d722bc7695b15358cfd",
+      "title": "（一社）教育AI活用協会、教育AIサミット 2026 in THE CAMPUS 「実例大全」5分間プレゼンター募集開始 - リセマム",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Qc3AyQlNLQjNuVzA4b0tFdUI0VVlYYzlSYWswZVBPdmF6VXNnYTcwY2tNaFJWNkJiMU9GaXIzc1lkOUtyRVh2TVgwSHVLVmFJeU82QV9OdGtjMzQ2MU9DNkpvVTVFZw?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T15:00:09.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:3a380c59d871c6416ef539ab90d7b14bed1d70db",
+      "title": "IKIGAI lab.、親子と教員向けイベント「生成AI、どう教える？どう使う？」を2月7日に開催 - こどもとIT",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhRUtjOVZhNzNqQ0Z4ZlZCTzlYRkNYaVlRMm8wMW8zX21LaE9rOVMxNjdCa0tvbU9zVkMtcUFDdEFyS3BWTFBtNWo2SVVjTkgzQ1BnWlVHYmtXMHpjZHVmekJNTXk4Y1p3YlRvZA?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T15:00:00.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例",
+        "研修"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:8873d30d07a75003d4b85a125fdf7d56f3dbf490",
+      "title": "小学生〜高校生の保護者、3割超が生成AIの利用で子どもの「思考力の低下」を懸念【「Kidsプログラミングラボ 秋葉原教室」調査】 - EdTechZine",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lWVc5QXN3MHpEMXBlaDdIMGZ2R3BXT1RGWVFnbDNKVzY0dEtQblFQQ19KVUFqMGw5Y3hxeEFsVjh5SE5LTWlaRXBjZWU5eUFoWFVzVQ?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T13:38:02.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:9f900628dfdd3e543f278ceae5df8ddd6a0fc5fe",
+      "title": "スクールAIを展開するみんがく、”思考を深める学びを支える” 中学校向けおすすめアプリ第5弾を公開 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42T3pYU0VoN242emRyRVdFVlMxNVlwRXlmVmJUY25GWlI1ZnJVLVY5cllMM2ZMaktfS3hFek4tR3h4emRjNGJMYTF6MFVpcXpORmVQTmhwYXJWeU53cUltNS1sU201b2ZwZVltc2JmUjdQSTZmNkwyNmlSNA?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T11:30:23.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:d1d008180ee721808f42d029d347eb6c4be79ca5",
+      "title": "教育AI活用協会がオンライン勉強会を開催！生成AIのデータ利用を探る - サードニュース",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PRnlUX19nczhoYWxqbGlocEVuMDczblZiLUgxUEY1RTJjM2NRTy1TVTZpTXF2ZEZZcHdnenVRNXFWUE1zYWhYbzQwUEU3ZTh6SjlmYTdiYVBDa1o3Y1Nid2RNdHpzN0lnekFueVhfcWZUQ0l1S3NpLS1B?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T11:05:58.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:48d3303bc6dd4231fd7c86f37f6f072a3a57cea3",
+      "title": "教育AI活用協会、生成AIを用いたデータ利活用法を学ぶオンライン勉強会開催 - ニュースメディアVOIX",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE05YnZybWphOWdjYnk4THJIYWFfMWFXRzhFSDk2QzlOc3ZRTUVWV3VIcVJmOHltZjFKSUtxc1p6eWhrWHlMQWc?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T10:54:13.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
+      ],
+      "score": 5
+    },
+    {
+      "id": "sha1:f058e5565930beb18ac7823de1375891ca65c3f8",
+      "title": "（一社）教育AI活用協会、オンライン勉強会「生成AIを活用したデータ利活用の方法」を開催 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0QUtCbFV6OVNrTXpPMTdDdFhHLWZXVmJzb281aWlfLTlFUHNyRFZ3cUlPU0xXNjBYMjl5S3paTTBTR1Z2ZDh3b2FvaEtXUW96M2F1VWZ5aXpud2NuT0ZxNkVmR1BPYU42WEE?oc=5",
+      "source": "Google News: 教育 生成AI 活用",
+      "publishedAt": "2026-01-15T10:00:04.000+09:00",
+      "tab": "AI_EDU",
+      "tags": [
+        "活用事例"
       ],
       "score": 5
     },
@@ -2368,16 +3183,16 @@
       "score": 5
     },
     {
-      "id": "sha1:3e34e4bbd429f538c0b77d80c7d696d543535529",
-      "title": "小中学生約4割が生成AI「ブラウザ要約」利用、公立高・定員内不合格に地域差…教育業界ニュースまとめ読み - リセマム",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JQkY1ZlBtWGV5WjBhVmlkQTZiZUNaRnBVQ1RFazdJckRZMk5Cb0tjWTlRZjYxVUs2Y0Jwd2NYakU5T1duMmZaZ1JyM3ZUMUZyaW4zQzl6eFIyVWRvNk83RE5mbnIyZw?oc=5",
-      "source": "Google News: 教育 生成AI 活用",
-      "publishedAt": "2026-01-13T05:55:02.000+09:00",
-      "tab": "AI_EDU",
+      "id": "sha1:9cfbea1ecd03cd0dde186146a867ff39a4b72cf0",
+      "title": "2026年度・大学入学共通テストはどう変化する？ 専門家による出題予測と試験当日にうろたえないコツ - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kZ2xMZXFSRHNscU5oTjFMcUpZMXBFemdITWsybXZGZ3dIaXF2WjRvOGMwMk1ya0MtZjc5WjgwMXktSjk3bVBWd1pDTlBoR0FSQmxUR19IdUVLUVJBLVI2cUdxNzI3V0FHWkJldDVWQVZvUzlDbUdpQXJtcWRCeVk?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-16T06:30:01.000+09:00",
+      "tab": "EXAM",
       "tags": [
-        "活用事例"
+        "共通テスト"
       ],
-      "score": 5
+      "score": 3
     },
     {
       "id": "sha1:c9beb9d80054620b2e4a5d44dc5bc1124704b311",
@@ -2385,6 +3200,18 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZVVV3RkhBbGVfWEtOTFNEREdoZUQydUpSYmFtLTk4VGgyM0pQaENiOTFPSlp5cnFKeXkwTjRmZ082S0lMNS1pdDBHUnRHLTdjeUZwV3IyRVpYV091NGpkc2ZzN3ZBQ2tM?oc=5",
       "source": "Google News: 共通テスト 情報I",
       "publishedAt": "2026-01-14T16:45:23.000+09:00",
+      "tab": "EXAM",
+      "tags": [
+        "共通テスト"
+      ],
+      "score": 3
+    },
+    {
+      "id": "sha1:8f05eee2858b9711cc0442e7b9cbbb8a4a1e49b1",
+      "title": "令和8年度大学入試共通テストの予備情報を公開開始 - サードニュース",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FT3pFdDQ4emZwaDdoN2Y2aWJPSWxTanE1RUZFT3o5aU9QNEFqZi1TdnNEZEJKcmFuSjB6MUNKa1ZDQlpEajA0bHMyblNhN0RNZ2Ffa3hmQlRoeHRDYmUtR1QtS2c5VVJsUlo5SEF3WmZLY0tsMkE1bTNB?oc=5",
+      "source": "Google News: 共通テスト 情報I",
+      "publishedAt": "2026-01-14T14:43:30.000+09:00",
       "tab": "EXAM",
       "tags": [
         "共通テスト"
